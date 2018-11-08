@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name biohub)(type KiCad)(uri ${KIPRJMOD}/biohub.pretty)(options "")(descr ""))
+  (lib (name ADUM1411BRWZ)(type Legacy)(uri C:/Users/brian/Downloads/ADUM1411BRWZ.mod)(options "")(descr ""))
+)

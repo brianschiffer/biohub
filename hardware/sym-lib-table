@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ADS1299IPAG)(type Legacy)(uri C:/Users/brian/Documents/GitHub/biohub/hardware/lib/ADS1299IPAG.lib)(options "")(descr ""))
+  (lib (name biohub)(type Legacy)(uri C:/Users/brian/Documents/GitHub/biohub/hardware/biohub.lib)(options "")(descr ""))
+)
