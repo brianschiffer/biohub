@@ -188,42 +188,42 @@ Wire Wire Line
 	8450 2300 8900 2300
 Text Label 8600 2400 0    50   ~ 0
 BIAS
-Text Label 8600 2500 0    50   ~ 0
-8N
-Text Label 8600 2600 0    50   ~ 0
-7N
-Text Label 8600 2700 0    50   ~ 0
-6N
-Text Label 8600 2800 0    50   ~ 0
-5N
-Text Label 8600 2900 0    50   ~ 0
-4N
-Text Label 8600 3000 0    50   ~ 0
-3N
-Text Label 8600 3100 0    50   ~ 0
-2N
 Text Label 8600 3200 0    50   ~ 0
-1N
+8P
+Text Label 8600 3100 0    50   ~ 0
+7P
+Text Label 8600 3000 0    50   ~ 0
+6P
+Text Label 8600 2800 0    50   ~ 0
+4P
+Text Label 8600 2900 0    50   ~ 0
+5P
+Text Label 8600 2700 0    50   ~ 0
+3P
+Text Label 8600 2600 0    50   ~ 0
+2P
+Text Label 8600 2500 0    50   ~ 0
+1P
 Text Label 8600 3300 0    50   ~ 0
 SRB2
 Text Label 9700 3300 2    50   ~ 0
 SRB1
 Text Label 9700 3200 2    50   ~ 0
-1P
+8N
 Text Label 9700 3100 2    50   ~ 0
-2P
+7N
 Text Label 9700 3000 2    50   ~ 0
-3P
+6N
 Text Label 9700 2900 2    50   ~ 0
-4P
+5N
 Text Label 9700 2800 2    50   ~ 0
-5P
+4N
 Text Label 9700 2700 2    50   ~ 0
-6P
+3N
 Text Label 9700 2600 2    50   ~ 0
-7P
+2N
 Text Label 9700 2500 2    50   ~ 0
-8P
+1N
 Text Label 9700 2400 2    50   ~ 0
 BIAS
 Text Notes 5000 950  2    197  ~ 0

@@ -774,23 +774,6 @@ F 7 "GCJ219R71C105KA01D" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C?
-U 1 1 5BF4DE48
-P 2050 3250
-AR Path="/5BF4DE48" Ref="C?"  Part="1" 
-AR Path="/5BE83AC7/5BF4DE48" Ref="C30"  Part="1" 
-F 0 "C30" H 2142 3296 50  0000 L CNN
-F 1 "1u" H 2100 3200 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 2050 3250 50  0001 C CNN
-F 3 "" H 2050 3250 50  0001 C CNN
-F 4 "490-5800-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
-F 5 "CAP CER 1UF 16V X7R 0805" H 0   0   50  0001 C CNN "Info"
-F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "GCJ219R71C105KA01D" H 0   0   50  0001 C CNN "Manufacturer Part #"
-	1    2050 3250
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:-2V5 #PWR?
 U 1 1 5BF4DE4F
 P 1300 3300
@@ -1326,4 +1309,22 @@ Wire Wire Line
 Wire Wire Line
 	3150 4000 3400 4000
 Connection ~ 3150 3700
+$Comp
+L Device:C_Small C?
+U 1 1 5BEBE12B
+P 2050 3250
+AR Path="/5BEBE12B" Ref="C?"  Part="1" 
+AR Path="/5BE83AC7/5BEBE12B" Ref="C30"  Part="1" 
+F 0 "C30" H 2142 3296 50  0000 L CNN
+F 1 "0.1u" H 2100 3200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 2050 3250 50  0001 C CNN
+F 3 "" H 2050 3250 50  0001 C CNN
+F 4 "490-5796-1-ND" H 0   400 50  0001 C CNN "Digikey Part #"
+F 5 "490-5796-1-ND" H 0   400 50  0001 C CNN "Field4"
+F 6 "CAP CER 0.1UF 16V X7R 0603" H 0   400 50  0001 C CNN "Info"
+F 7 "Murata Electronics North America" H 0   400 50  0001 C CNN "Manufacturer"
+F 8 "GCJ188R71C104KA01D" H 0   400 50  0001 C CNN "Manufacturer Part #"
+	1    2050 3250
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
