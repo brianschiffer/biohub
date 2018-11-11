@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1050170001
+D CONN RCPT MICRO USB R/A SMD
+$ENDCMP
+#
 $CMP FT220XS
 D Full Speed USB to 4-Bit SPI / FT1248 Bridge, SSOP-16
 K FTDI USB SPI FT1248 Interface Converter

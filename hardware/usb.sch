@@ -65,9 +65,13 @@ L Device:L_Core_Ferrite_Small L2
 U 1 1 5BEB224B
 P 9400 2250
 F 0 "L2" V 9605 2250 50  0000 C CNN
-F 1 "600R/2A" V 9514 2250 50  0000 C CNN
+F 1 "2.2R/0.2A" V 9514 2250 50  0000 C CNN
 F 2 "" H 9400 2250 50  0001 C CNN
-F 3 "~" H 9400 2250 50  0001 C CNN
+F 3 "" H 9400 2250 50  0001 C CNN
+F 4 "490-5196-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "	FERRITE BEAD 1.8 KOHM 0402 1LN" H 0   0   50  0001 C CNN "Info"
+F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "BLM15HD182SN1D" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    9400 2250
 	0    -1   -1   0   
 $EndComp
@@ -76,9 +80,13 @@ L Device:L_Core_Ferrite_Small L3
 U 1 1 5BEB2252
 P 9400 2600
 F 0 "L3" V 9300 2650 50  0000 C CNN
-F 1 "600R/2A" V 9350 2550 50  0000 C CNN
+F 1 "2.2R/0.2A" V 9350 2550 50  0000 C CNN
 F 2 "" H 9400 2600 50  0001 C CNN
-F 3 "~" H 9400 2600 50  0001 C CNN
+F 3 "" H 9400 2600 50  0001 C CNN
+F 4 "490-5196-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "	FERRITE BEAD 1.8 KOHM 0402 1LN" H 0   0   50  0001 C CNN "Info"
+F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "BLM15HD182SN1D" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    9400 2600
 	0    -1   -1   0   
 $EndComp
@@ -89,7 +97,11 @@ P 7100 2450
 F 0 "C9" H 7192 2496 50  0000 L CNN
 F 1 "10u" H 7192 2405 50  0000 L CNN
 F 2 "" H 7100 2450 50  0001 C CNN
-F 3 "~" H 7100 2450 50  0001 C CNN
+F 3 "" H 7100 2450 50  0001 C CNN
+F 4 "	490-5848-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "CAP CER 10UF 10V X7R 1206" H 0   0   50  0001 C CNN "Info"
+F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "GCJ31CR71A106KA13L" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    7100 2450
 	1    0    0    -1  
 $EndComp
@@ -111,7 +123,12 @@ P 7400 2450
 F 0 "C10" H 7492 2496 50  0000 L CNN
 F 1 "0.1u" H 7492 2405 50  0000 L CNN
 F 2 "" H 7400 2450 50  0001 C CNN
-F 3 "~" H 7400 2450 50  0001 C CNN
+F 3 "" H 7400 2450 50  0001 C CNN
+F 4 "490-5796-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "490-5796-1-ND" H 0   0   50  0001 C CNN "Field4"
+F 6 "CAP CER 0.1UF 16V X7R 0603" H 0   0   50  0001 C CNN "Info"
+F 7 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "GCJ188R71C104KA01D" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    7400 2450
 	1    0    0    -1  
 $EndComp
@@ -158,7 +175,11 @@ P 9200 2400
 F 0 "C11" H 9292 2446 50  0000 L CNN
 F 1 "0.22u" H 9292 2355 50  0000 L CNN
 F 2 "" H 9200 2400 50  0001 C CNN
-F 3 "~" H 9200 2400 50  0001 C CNN
+F 3 "" H 9200 2400 50  0001 C CNN
+F 4 "490-5804-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "CAP CER 0.22UF 50V X7R 0805" H 0   0   50  0001 C CNN "Info"
+F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "GCJ21BR71H224KA01L" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    9200 2400
 	1    0    0    -1  
 $EndComp
@@ -169,19 +190,23 @@ P 9600 2400
 F 0 "C12" H 9692 2446 50  0000 L CNN
 F 1 "10u" H 9692 2355 50  0000 L CNN
 F 2 "" H 9600 2400 50  0001 C CNN
-F 3 "~" H 9600 2400 50  0001 C CNN
+F 3 "" H 9600 2400 50  0001 C CNN
+F 4 "	490-5848-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "CAP CER 10UF 10V X7R 1206" H 0   0   50  0001 C CNN "Info"
+F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "GCJ31CR71A106KA13L" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    9600 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR020
 U 1 1 5BEB228F
-P 9050 2600
-F 0 "#PWR020" H 9050 2350 50  0001 C CNN
-F 1 "GND" H 9055 2427 50  0000 C CNN
-F 2 "" H 9050 2600 50  0001 C CNN
-F 3 "" H 9050 2600 50  0001 C CNN
-	1    9050 2600
+P 9600 2700
+F 0 "#PWR020" H 9600 2450 50  0001 C CNN
+F 1 "GND" H 9605 2527 50  0000 C CNN
+F 2 "" H 9600 2700 50  0001 C CNN
+F 3 "" H 9600 2700 50  0001 C CNN
+	1    9600 2700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -197,7 +222,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 2600 9200 2600
 Wire Wire Line
-	9200 2600 9200 2500
+	9200 2600 9200 2550
 Wire Wire Line
 	9200 2300 9200 2250
 Connection ~ 9200 2250
@@ -210,8 +235,6 @@ Wire Wire Line
 Wire Wire Line
 	9000 2550 9050 2550
 Connection ~ 9050 2550
-Wire Wire Line
-	9050 2550 9050 2600
 Wire Wire Line
 	9000 2350 9050 2350
 Connection ~ 9050 2350
@@ -254,7 +277,7 @@ AR Path="/5BE83916/5BEF1DD2" Ref="U1"  Part="1"
 F 0 "U1" H 2850 6320 50  0000 C CNN
 F 1 "ADUM1411BRWZ" H 2850 6229 50  0000 C CNN
 F 2 "biohub:ADUM1411BRWZ" H 2850 5550 50  0001 L BNN
-F 3 "Unavailable" H 2850 5550 50  0001 L BNN
+F 3 "" H 2850 5550 50  0001 L BNN
 F 4 "SOIC-16 Analog Devices" H 2850 5550 50  0001 L BNN "Field4"
 F 5 "ADUM1411BRWZ" H 2850 5550 50  0001 L BNN "Field5"
 F 6 "None" H 2850 5550 50  0001 L BNN "Field6"
@@ -341,7 +364,12 @@ AR Path="/5BE83916/5BEF1DFA" Ref="C5"  Part="1"
 F 0 "C5" H 2142 5296 50  0000 L CNN
 F 1 "0.1u" H 2142 5205 50  0000 L CNN
 F 2 "" H 2050 5250 50  0001 C CNN
-F 3 "~" H 2050 5250 50  0001 C CNN
+F 3 "" H 2050 5250 50  0001 C CNN
+F 4 "490-5796-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "490-5796-1-ND" H 0   0   50  0001 C CNN "Field4"
+F 6 "CAP CER 0.1UF 16V X7R 0603" H 0   0   50  0001 C CNN "Info"
+F 7 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "GCJ188R71C104KA01D" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    2050 5250
 	1    0    0    -1  
 $EndComp
@@ -355,7 +383,12 @@ AR Path="/5BE83916/5BEF1E02" Ref="C8"  Part="1"
 F 0 "C8" H 3742 5296 50  0000 L CNN
 F 1 "0.1u" H 3742 5205 50  0000 L CNN
 F 2 "" H 3650 5250 50  0001 C CNN
-F 3 "~" H 3650 5250 50  0001 C CNN
+F 3 "" H 3650 5250 50  0001 C CNN
+F 4 "490-5796-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "490-5796-1-ND" H 0   0   50  0001 C CNN "Field4"
+F 6 "CAP CER 0.1UF 16V X7R 0603" H 0   0   50  0001 C CNN "Info"
+F 7 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "GCJ188R71C104KA01D" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    3650 5250
 	1    0    0    -1  
 $EndComp
@@ -408,12 +441,13 @@ P 1600 2650
 AR Path="/5BF11F92" Ref="J?"  Part="1" 
 AR Path="/5BE83916/5BF11F92" Ref="J1"  Part="1" 
 F 0 "J1" H 1705 3217 50  0000 C CNN
-F 1 "1050170001" H 1705 3126 50  0000 C CNN
+F 1 "CONNECTOR" H 1705 3126 50  0000 C CNN
 F 2 "biohub:MOLEX_1050170001" H 1600 2650 50  0001 L BNN
-F 3 "Conn.; Data; USB; Recept.; Micro; B Type; Bottom Mount, SMT, with Solder Tabs, Lead-Free" H 1600 2650 50  0001 L BNN
-F 4 "1050170001" H 1600 2650 50  0001 L BNN "Field4"
-F 5 "Molex, LLC" H 1600 2650 50  0001 L BNN "Field7"
-F 6 "None" H 1600 2650 50  0001 L BNN "Field8"
+F 3 "" H 1600 2650 50  0001 L BNN
+F 4 "WM1399CT-ND" H 1600 2650 50  0001 C CNN "Digikey Part #"
+F 5 "1050170001" H 1600 2650 50  0001 C CNN "Manufacturer Part #"
+F 6 "Molex, LLC" H 1600 2650 50  0001 C CNN "Manufacturer"
+F 7 "CONN RCPT MICRO USB R/A SMD" H 1600 2650 50  0001 C CNN "Info"
 	1    1600 2650
 	1    0    0    -1  
 $EndComp
@@ -426,7 +460,12 @@ AR Path="/5BE83916/5BF11F99" Ref="L1"  Part="1"
 F 0 "L1" H 2367 2096 50  0000 L CNN
 F 1 "600R/2A" H 2367 2005 50  0000 L CNN
 F 2 "" H 2300 2050 50  0001 C CNN
-F 3 "~" H 2300 2050 50  0001 C CNN
+F 3 "" H 2300 2050 50  0001 C CNN
+F 4 "240-2389-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "240-2389-1-ND" H 0   0   50  0001 C CNN "Field4"
+F 6 "FERRITE BEAD 40 OHM 0805 1LN" H 0   0   50  0001 C CNN "Info"
+F 7 "Laird-Signal Integrity Products" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "MI0805K400R-10" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    2300 2050
 	1    0    0    -1  
 $EndComp
@@ -452,7 +491,11 @@ AR Path="/5BE83916/5BF11FA6" Ref="C3"  Part="1"
 F 0 "C3" H 2392 2996 50  0000 L CNN
 F 1 "10nF" H 2392 2905 50  0000 L CNN
 F 2 "" H 2300 2950 50  0001 C CNN
-F 3 "~" H 2300 2950 50  0001 C CNN
+F 3 "" H 2300 2950 50  0001 C CNN
+F 4 "490-5771-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "CAP CER 10000PF 100V X7R 0603" H 0   0   50  0001 C CNN "Info"
+F 6 "	Murata Electronics North America" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "GCJ188R72A103KA01D" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    2300 2950
 	1    0    0    -1  
 $EndComp
@@ -465,7 +508,11 @@ AR Path="/5BE83916/5BF11FAD" Ref="C4"  Part="1"
 F 0 "C4" H 2642 2746 50  0000 L CNN
 F 1 "47p" H 2642 2655 50  0000 L CNN
 F 2 "" H 2550 2700 50  0001 C CNN
-F 3 "~" H 2550 2700 50  0001 C CNN
+F 3 "" H 2550 2700 50  0001 C CNN
+F 4 "490-16408-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "CAP CER 47PF 100V C0G/NP0 0603" H 0   0   50  0001 C CNN "Info"
+F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "GCM1885C2A470FA16D" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    2550 2700
 	1    0    0    -1  
 $EndComp
@@ -515,9 +562,14 @@ P 3300 3150
 AR Path="/5BF11FC6" Ref="C?"  Part="1" 
 AR Path="/5BE83916/5BF11FC6" Ref="C7"  Part="1" 
 F 0 "C7" H 3392 3196 50  0000 L CNN
-F 1 "100n" H 3392 3105 50  0000 L CNN
+F 1 "0.1u" H 3392 3105 50  0000 L CNN
 F 2 "" H 3300 3150 50  0001 C CNN
-F 3 "~" H 3300 3150 50  0001 C CNN
+F 3 "" H 3300 3150 50  0001 C CNN
+F 4 "490-5796-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "490-5796-1-ND" H 0   0   50  0001 C CNN "Field4"
+F 6 "CAP CER 0.1UF 16V X7R 0603" H 0   0   50  0001 C CNN "Info"
+F 7 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "GCJ188R71C104KA01D" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    3300 3150
 	1    0    0    -1  
 $EndComp
@@ -530,7 +582,11 @@ AR Path="/5BE83916/5BF11FCD" Ref="C6"  Part="1"
 F 0 "C6" H 2992 2746 50  0000 L CNN
 F 1 "47p" H 2992 2655 50  0000 L CNN
 F 2 "" H 2900 2700 50  0001 C CNN
-F 3 "~" H 2900 2700 50  0001 C CNN
+F 3 "" H 2900 2700 50  0001 C CNN
+F 4 "490-16408-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "CAP CER 47PF 100V C0G/NP0 0603" H 0   0   50  0001 C CNN "Info"
+F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "GCM1885C2A470FA16D" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    2900 2700
 	1    0    0    -1  
 $EndComp
@@ -543,7 +599,12 @@ AR Path="/5BE83916/5BF11FD4" Ref="C1"  Part="1"
 F 0 "C1" H 1492 1596 50  0000 L CNN
 F 1 "4.7u" H 1492 1505 50  0000 L CNN
 F 2 "" H 1400 1550 50  0001 C CNN
-F 3 "~" H 1400 1550 50  0001 C CNN
+F 3 "" H 1400 1550 50  0001 C CNN
+F 4 "490-10557-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "4.7µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)" H 0   0   50  0001 C CNN "Info"
+F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "GCJ21BR71C475KA01L" H 0   0   50  0001 C CNN "Manufacturer Part #"
+F 8 "" H 0   0   50  0001 C CNN "digikey#"
 	1    1400 1550
 	1    0    0    -1  
 $EndComp
@@ -554,9 +615,14 @@ P 1750 1550
 AR Path="/5BF11FDB" Ref="C?"  Part="1" 
 AR Path="/5BE83916/5BF11FDB" Ref="C2"  Part="1" 
 F 0 "C2" H 1842 1596 50  0000 L CNN
-F 1 "100n" H 1842 1505 50  0000 L CNN
+F 1 "0.1u" H 1842 1505 50  0000 L CNN
 F 2 "" H 1750 1550 50  0001 C CNN
-F 3 "~" H 1750 1550 50  0001 C CNN
+F 3 "" H 1750 1550 50  0001 C CNN
+F 4 "490-5796-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "490-5796-1-ND" H 0   0   50  0001 C CNN "Field4"
+F 6 "CAP CER 0.1UF 16V X7R 0603" H 0   0   50  0001 C CNN "Info"
+F 7 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "GCJ188R71C104KA01D" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    1750 1550
 	1    0    0    -1  
 $EndComp
@@ -569,7 +635,11 @@ AR Path="/5BE83916/5BF11FE2" Ref="R1"  Part="1"
 F 0 "R1" H 2059 3146 50  0000 L CNN
 F 1 "0" H 2059 3055 50  0000 L CNN
 F 2 "" H 2000 3100 50  0001 C CNN
-F 3 "~" H 2000 3100 50  0001 C CNN
+F 3 "" H 2000 3100 50  0001 C CNN
+F 4 "MCS0402-0.0-ZZCT-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "RES SMD 0 OHM JUMPER 1/10W 0402" H 0   0   50  0001 C CNN "Info"
+F 6 "Vishay Beyschlag" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "MCS04020Z0000ZE000" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    2000 3100
 	1    0    0    -1  
 $EndComp
@@ -582,7 +652,11 @@ AR Path="/5BE83916/5BF11FE9" Ref="R3"  Part="1"
 F 0 "R3" V 3100 2550 50  0000 C CNN
 F 1 "27" V 3150 2700 50  0000 C CNN
 F 2 "" H 3100 2550 50  0001 C CNN
-F 3 "~" H 3100 2550 50  0001 C CNN
+F 3 "" H 3100 2550 50  0001 C CNN
+F 4 "P27DDCT-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "RES SMD 27 OHM 0.5% 1/16W 0402" H 0   0   50  0001 C CNN "Info"
+F 6 "	Panasonic Electronic Components" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "	ERA-2AKD270X" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    3100 2550
 	0    1    1    0   
 $EndComp
@@ -595,7 +669,11 @@ AR Path="/5BE83916/5BF11FF0" Ref="R2"  Part="1"
 F 0 "R2" V 3100 2450 50  0000 C CNN
 F 1 "27" V 3050 2600 50  0000 C CNN
 F 2 "" H 3100 2450 50  0001 C CNN
-F 3 "~" H 3100 2450 50  0001 C CNN
+F 3 "" H 3100 2450 50  0001 C CNN
+F 4 "P27DDCT-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "RES SMD 27 OHM 0.5% 1/16W 0402" H 0   0   50  0001 C CNN "Info"
+F 6 "	Panasonic Electronic Components" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "	ERA-2AKD270X" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    3100 2450
 	0    1    1    0   
 $EndComp
@@ -701,7 +779,7 @@ AR Path="/5BE83916/5BF12028" Ref="U2"  Part="1"
 F 0 "U2" H 4550 3150 50  0000 C CNN
 F 1 "FT220XS" H 4050 2550 50  0000 C CNN
 F 2 "biohub:FT220X" H 4600 1850 50  0001 C CNN
-F 3 "http://www.ftdichip.com/Products/ICs/FT220X.html" H 4050 2550 50  0001 C CNN
+F 3 "" H 4050 2550 50  0001 C CNN
 	1    4050 2550
 	1    0    0    -1  
 $EndComp
@@ -857,4 +935,12 @@ Wire Wire Line
 	10700 2200 10800 2200
 Wire Wire Line
 	10800 2200 10800 2350
+Wire Wire Line
+	9050 2550 9200 2550
+Connection ~ 9200 2550
+Wire Wire Line
+	9200 2550 9200 2500
+Wire Wire Line
+	9600 2600 9600 2700
+Connection ~ 9600 2600
 $EndSCHEMATC

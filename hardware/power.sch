@@ -49,7 +49,11 @@ AR Path="/5BE83956/5BF30C78" Ref="C13"  Part="1"
 F 0 "C13" H 1242 2546 50  0000 L CNN
 F 1 "10u" H 1242 2455 50  0000 L CNN
 F 2 "" H 1150 2500 50  0001 C CNN
-F 3 "~" H 1150 2500 50  0001 C CNN
+F 3 "" H 1150 2500 50  0001 C CNN
+F 4 "	490-5848-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "CAP CER 10UF 10V X7R 1206" H 0   0   50  0001 C CNN "Info"
+F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "GCJ31CR71A106KA13L" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    1150 2500
 	1    0    0    -1  
 $EndComp
@@ -75,7 +79,11 @@ AR Path="/5BE83956/5BF30C85" Ref="C14"  Part="1"
 F 0 "C14" V 1550 2350 50  0000 C CNN
 F 1 "10u" V 1650 2350 50  0000 C CNN
 F 2 "" H 1600 2450 50  0001 C CNN
-F 3 "~" H 1600 2450 50  0001 C CNN
+F 3 "" H 1600 2450 50  0001 C CNN
+F 4 "	490-5848-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "CAP CER 10UF 10V X7R 1206" H 0   0   50  0001 C CNN "Info"
+F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "GCJ31CR71A106KA13L" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    1600 2450
 	0    1    1    0   
 $EndComp
@@ -152,7 +160,11 @@ AR Path="/5BE83956/5BF30CAB" Ref="C15"  Part="1"
 F 0 "C15" H 3342 2546 50  0000 L CNN
 F 1 "10u" H 3342 2455 50  0000 L CNN
 F 2 "" H 3250 2500 50  0001 C CNN
-F 3 "~" H 3250 2500 50  0001 C CNN
+F 3 "" H 3250 2500 50  0001 C CNN
+F 4 "	490-5848-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "CAP CER 10UF 10V X7R 1206" H 0   0   50  0001 C CNN "Info"
+F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "GCJ31CR71A106KA13L" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    3250 2500
 	1    0    0    -1  
 $EndComp
@@ -178,7 +190,11 @@ AR Path="/5BE83956/5BF30CB8" Ref="R4"  Part="1"
 F 0 "R4" V 2900 2450 50  0000 C CNN
 F 1 "21k" V 2950 2600 50  0000 C CNN
 F 2 "" H 2900 2450 50  0001 C CNN
-F 3 "~" H 2900 2450 50  0001 C CNN
+F 3 "" H 2900 2450 50  0001 C CNN
+F 4 "541-3139-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "RES 21K OHM 0.1% 1/10W 0402" H 0   0   50  0001 C CNN "Info"
+F 6 "Vishay Dale" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "TNPW040221K0BEED" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    2900 2450
 	0    1    1    0   
 $EndComp
@@ -239,7 +255,11 @@ AR Path="/5BE83956/5BF43253" Ref="C16"  Part="1"
 F 0 "C16" H 5642 2446 50  0000 L CNN
 F 1 "2.2u" H 5600 2350 50  0000 L CNN
 F 2 "" H 5550 2400 50  0001 C CNN
-F 3 "~" H 5550 2400 50  0001 C CNN
+F 3 "" H 5550 2400 50  0001 C CNN
+F 4 "490-5801-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "	CAP CER 2.2UF 16V X7R 0805" H 0   0   50  0001 C CNN "Info"
+F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "GCJ21BR71C225KA13L" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    5550 2400
 	1    0    0    -1  
 $EndComp
@@ -252,7 +272,11 @@ AR Path="/5BE83956/5BF4325A" Ref="C19"  Part="1"
 F 0 "C19" H 7492 2446 50  0000 L CNN
 F 1 "2.2u" H 7492 2355 50  0000 L CNN
 F 2 "" H 7400 2400 50  0001 C CNN
-F 3 "~" H 7400 2400 50  0001 C CNN
+F 3 "" H 7400 2400 50  0001 C CNN
+F 4 "490-5801-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "	CAP CER 2.2UF 16V X7R 0805" H 0   0   50  0001 C CNN "Info"
+F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "GCJ21BR71C225KA13L" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    7400 2400
 	1    0    0    -1  
 $EndComp
@@ -343,7 +367,11 @@ AR Path="/5BE83956/5BF43289" Ref="C17"  Part="1"
 F 0 "C17" H 5642 3446 50  0000 L CNN
 F 1 "2.2u" H 5600 3350 50  0000 L CNN
 F 2 "" H 5550 3400 50  0001 C CNN
-F 3 "~" H 5550 3400 50  0001 C CNN
+F 3 "" H 5550 3400 50  0001 C CNN
+F 4 "490-5801-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "	CAP CER 2.2UF 16V X7R 0805" H 0   0   50  0001 C CNN "Info"
+F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "GCJ21BR71C225KA13L" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    5550 3400
 	1    0    0    -1  
 $EndComp
@@ -356,7 +384,11 @@ AR Path="/5BE83956/5BF43290" Ref="C18"  Part="1"
 F 0 "C18" H 7292 3396 50  0000 L CNN
 F 1 "2.2u" H 7292 3305 50  0000 L CNN
 F 2 "" H 7200 3350 50  0001 C CNN
-F 3 "~" H 7200 3350 50  0001 C CNN
+F 3 "" H 7200 3350 50  0001 C CNN
+F 4 "490-5801-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "	CAP CER 2.2UF 16V X7R 0805" H 0   0   50  0001 C CNN "Info"
+F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "GCJ21BR71C225KA13L" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    7200 3350
 	1    0    0    -1  
 $EndComp
