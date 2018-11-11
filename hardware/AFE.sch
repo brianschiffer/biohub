@@ -31,6 +31,10 @@ F 7 "Texas Instruments" H 5250 7400 50  0001 L BNN "Field7"
 F 8 "TQFP-64 Texas Instruments" H 5250 7400 50  0001 L BNN "Field8"
 F 9 "ADS1299IPAGR" H 5600 3150 50  0001 C CNN "manf#"
 F 10 "296-34818-1-ND" H 5600 3150 50  0001 C CNN "digikey#"
+F 11 "296-34818-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 12 "IC AFE 8-CH 24BIT 64TQFP" H 0   0   50  0001 C CNN "Info"
+F 13 "	Texas Instruments" H 0   0   50  0001 C CNN "Manufacturer"
+F 14 "ADS1299IPAGR" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    5600 3150
 	1    0    0    -1  
 $EndComp
@@ -72,10 +76,10 @@ F 0 "R6" V 6350 4700 50  0000 C CNN
 F 1 "10k" V 5950 4700 50  0000 C CNN
 F 2 "" H 6350 4700 50  0001 C CNN
 F 3 "" H 6350 4700 50  0001 C CNN
-F 4 "MCS0402-10.0K-CFCT-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 4 "P10.0KLCT-ND" H 0   0   50  0001 C CNN "Digikey Part #"
 F 5 "RES SMD 10K OHM 1% 1/10W 0402" H 0   0   50  0001 C CNN "Info"
-F 6 "Vishay Beyschlag" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "MCS04020C1002FE000" H 0   0   50  0001 C CNN "Manufacturer Part #"
+F 6 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERJ-2RKF1002X" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    6350 4700
 	-1   0    0    1   
 $EndComp
@@ -89,10 +93,10 @@ F 0 "R7" V 6450 4700 50  0000 C CNN
 F 1 "10k" V 6150 4700 50  0000 C CNN
 F 2 "" H 6450 4700 50  0001 C CNN
 F 3 "" H 6450 4700 50  0001 C CNN
-F 4 "MCS0402-10.0K-CFCT-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 4 "P10.0KLCT-ND" H 0   0   50  0001 C CNN "Digikey Part #"
 F 5 "RES SMD 10K OHM 1% 1/10W 0402" H 0   0   50  0001 C CNN "Info"
-F 6 "Vishay Beyschlag" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "MCS04020C1002FE000" H 0   0   50  0001 C CNN "Manufacturer Part #"
+F 6 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERJ-2RKF1002X" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    6450 4700
 	-1   0    0    1   
 $EndComp
@@ -106,10 +110,10 @@ F 0 "R8" V 6550 4700 50  0000 C CNN
 F 1 "10k" V 6350 4700 50  0000 C CNN
 F 2 "" H 6550 4700 50  0001 C CNN
 F 3 "" H 6550 4700 50  0001 C CNN
-F 4 "MCS0402-10.0K-CFCT-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 4 "P10.0KLCT-ND" H 0   0   50  0001 C CNN "Digikey Part #"
 F 5 "RES SMD 10K OHM 1% 1/10W 0402" H 0   0   50  0001 C CNN "Info"
-F 6 "Vishay Beyschlag" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "MCS04020C1002FE000" H 0   0   50  0001 C CNN "Manufacturer Part #"
+F 6 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERJ-2RKF1002X" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    6550 4700
 	-1   0    0    1   
 $EndComp
@@ -123,10 +127,10 @@ F 0 "R9" V 6650 4700 50  0000 C CNN
 F 1 "10k" V 6550 4700 50  0000 C CNN
 F 2 "" H 6650 4700 50  0001 C CNN
 F 3 "" H 6650 4700 50  0001 C CNN
-F 4 "MCS0402-10.0K-CFCT-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 4 "P10.0KLCT-ND" H 0   0   50  0001 C CNN "Digikey Part #"
 F 5 "RES SMD 10K OHM 1% 1/10W 0402" H 0   0   50  0001 C CNN "Info"
-F 6 "Vishay Beyschlag" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "MCS04020C1002FE000" H 0   0   50  0001 C CNN "Manufacturer Part #"
+F 6 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERJ-2RKF1002X" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    6650 4700
 	-1   0    0    1   
 $EndComp
@@ -326,20 +330,16 @@ Wire Wire Line
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5BF4DD6F
-P 4050 2300
+P 3850 2150
 AR Path="/5BF4DD6F" Ref="#PWR?"  Part="1" 
 AR Path="/5BE83AC7/5BF4DD6F" Ref="#PWR043"  Part="1" 
-F 0 "#PWR043" H 4050 2150 50  0001 C CNN
-F 1 "+3.3V" H 4065 2473 50  0000 C CNN
-F 2 "" H 4050 2300 50  0001 C CNN
-F 3 "" H 4050 2300 50  0001 C CNN
-	1    4050 2300
+F 0 "#PWR043" H 3850 2000 50  0001 C CNN
+F 1 "+3.3V" H 3865 2323 50  0000 C CNN
+F 2 "" H 3850 2150 50  0001 C CNN
+F 3 "" H 3850 2150 50  0001 C CNN
+	1    3850 2150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4200 2450 4050 2450
-Wire Wire Line
-	4050 2450 4050 2300
 Wire Wire Line
 	4200 2800 3900 2800
 Wire Wire Line
@@ -433,20 +433,18 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5BF4DDA4
-P 3950 3650
+P 3950 3750
 AR Path="/5BF4DDA4" Ref="#PWR?"  Part="1" 
 AR Path="/5BE83AC7/5BF4DDA4" Ref="#PWR042"  Part="1" 
-F 0 "#PWR042" H 3950 3400 50  0001 C CNN
-F 1 "GND" H 3955 3477 50  0000 C CNN
-F 2 "" H 3950 3650 50  0001 C CNN
-F 3 "" H 3950 3650 50  0001 C CNN
-	1    3950 3650
+F 0 "#PWR042" H 3950 3500 50  0001 C CNN
+F 1 "GND" H 3955 3577 50  0000 C CNN
+F 2 "" H 3950 3750 50  0001 C CNN
+F 3 "" H 3950 3750 50  0001 C CNN
+	1    3950 3750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4200 3550 3950 3550
-Wire Wire Line
-	3950 3550 3950 3650
 $Comp
 L Device:C_Small C?
 U 1 1 5BF4DDAC
@@ -887,35 +885,35 @@ Wire Wire Line
 $Comp
 L Device:C_Small C?
 U 1 1 5BF4DE7D
-P 3750 4200
+P 3750 4100
 AR Path="/5BF4DE7D" Ref="C?"  Part="1" 
 AR Path="/5BE83AC7/5BF4DE7D" Ref="C20"  Part="1" 
-F 0 "C20" H 3842 4246 50  0000 L CNN
-F 1 "1n" H 3800 4150 50  0000 L CNN
-F 2 "" H 3750 4200 50  0001 C CNN
-F 3 "" H 3750 4200 50  0001 C CNN
-F 4 "490-6189-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
-F 5 "CAP CER 1000PF 50V C0G/NP0 0402" H 0   0   50  0001 C CNN "Info"
-F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "GRM1555C1H102FA01D" H 0   0   50  0001 C CNN "Manufacturer Part #"
-	1    3750 4200
+F 0 "C20" H 3842 4146 50  0000 L CNN
+F 1 "1n" H 3800 4050 50  0000 L CNN
+F 2 "" H 3750 4100 50  0001 C CNN
+F 3 "" H 3750 4100 50  0001 C CNN
+F 4 "490-6189-1-ND" H 0   -100 50  0001 C CNN "Digikey Part #"
+F 5 "CAP CER 1000PF 50V C0G/NP0 0402" H 0   -100 50  0001 C CNN "Info"
+F 6 "Murata Electronics North America" H 0   -100 50  0001 C CNN "Manufacturer"
+F 7 "GRM1555C1H102FA01D" H 0   -100 50  0001 C CNN "Manufacturer Part #"
+	1    3750 4100
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5BF4DE84
-P 3750 4350
+P 3750 4200
 AR Path="/5BF4DE84" Ref="R?"  Part="1" 
 AR Path="/5BE83AC7/5BF4DE84" Ref="R5"  Part="1" 
-F 0 "R5" V 3750 4350 50  0000 C CNN
-F 1 "1M" V 3650 4350 50  0000 C CNN
-F 2 "" H 3750 4350 50  0001 C CNN
-F 3 "" H 3750 4350 50  0001 C CNN
-F 4 "MCS0402-1.00M-CFCT-ND" H 0   0   50  0001 C CNN "Digikey Part #"
-F 5 "RES SMD 1M OHM 1% 1/10W 0402" H 0   0   50  0001 C CNN "Info"
-F 6 "Vishay Beyschlag" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "MCS04020C1004FE000" H 0   0   50  0001 C CNN "Manufacturer Part #"
-	1    3750 4350
+F 0 "R5" V 3750 4200 50  0000 C CNN
+F 1 "1M" V 3650 4200 50  0000 C CNN
+F 2 "" H 3750 4200 50  0001 C CNN
+F 3 "" H 3750 4200 50  0001 C CNN
+F 4 "MCS0402-1.00M-CFCT-ND" H 0   -150 50  0001 C CNN "Digikey Part #"
+F 5 "RES SMD 1M OHM 1% 1/10W 0402" H 0   -150 50  0001 C CNN "Info"
+F 6 "Vishay Beyschlag" H 0   -150 50  0001 C CNN "Manufacturer"
+F 7 "MCS04020C1004FE000" H 0   -150 50  0001 C CNN "Manufacturer Part #"
+	1    3750 4200
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -924,24 +922,6 @@ Wire Wire Line
 	4200 4300 4100 4300
 Wire Wire Line
 	4100 4300 4100 4200
-Connection ~ 4100 4200
-Wire Wire Line
-	4100 4200 3950 4200
-Wire Wire Line
-	3850 4350 3950 4350
-Wire Wire Line
-	3950 4350 3950 4200
-Connection ~ 3950 4200
-Wire Wire Line
-	3950 4200 3850 4200
-Wire Wire Line
-	3650 4200 3550 4200
-Wire Wire Line
-	3650 4350 3550 4350
-Wire Wire Line
-	3550 4350 3550 4200
-Wire Wire Line
-	4200 4100 3350 4100
 Wire Wire Line
 	6900 2400 6950 2400
 Wire Wire Line
@@ -1012,8 +992,6 @@ Wire Wire Line
 	6600 1750 6550 1750
 Text Notes 6600 1200 2    197  ~ 0
 AFE (ADS1299)
-Wire Wire Line
-	3550 4200 3350 4200
 Text HLabel 900  1300 0    50   Input ~ 0
 3v3
 Text HLabel 900  1400 0    50   Input ~ 0
@@ -1024,8 +1002,6 @@ Text HLabel 1650 1400 0    50   Input ~ 0
 GNDA
 Text HLabel 2350 1300 0    50   Input ~ 0
 -2v5
-Text HLabel 3900 2800 0    50   Input ~ 0
-CS
 Text HLabel 3900 2900 0    50   Input ~ 0
 SCLK
 Text HLabel 3900 3000 0    50   Input ~ 0
@@ -1034,10 +1010,8 @@ Text HLabel 3900 3100 0    50   Input ~ 0
 MISO
 Wire Wire Line
 	4200 2900 3900 2900
-Text HLabel 3350 4100 0    50   Input ~ 0
-BIAS_INV
-Text HLabel 3350 4200 0    50   Input ~ 0
-BIAS_DRV
+Text HLabel 3100 4200 0    50   Input ~ 0
+BIAS
 Text HLabel 6950 2400 2    50   Input ~ 0
 IN1P
 Text HLabel 6950 2500 2    50   Input ~ 0
@@ -1159,4 +1133,197 @@ Wire Wire Line
 	2350 1300 2450 1300
 Wire Wire Line
 	2450 1300 2450 1200
+$Comp
+L Device:R_Small R?
+U 1 1 5C03AD6E
+P 3800 2800
+AR Path="/5C03AD6E" Ref="R?"  Part="1" 
+AR Path="/5BE83AC7/5C03AD6E" Ref="R46"  Part="1" 
+F 0 "R46" V 3800 2800 50  0000 C CNN
+F 1 "10k" V 3850 2650 50  0000 C CNN
+F 2 "" H 3800 2800 50  0001 C CNN
+F 3 "" H 3800 2800 50  0001 C CNN
+F 4 "P10.0KLCT-ND" H -2850 -1900 50  0001 C CNN "Digikey Part #"
+F 5 "RES SMD 10K OHM 1% 1/10W 0402" H -2850 -1900 50  0001 C CNN "Info"
+F 6 "Panasonic Electronic Components" H -2850 -1900 50  0001 C CNN "Manufacturer"
+F 7 "ERJ-2RKF1002X" H -2850 -1900 50  0001 C CNN "Manufacturer Part #"
+	1    3800 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C03AF22
+P 3500 2850
+AR Path="/5C03AF22" Ref="#PWR?"  Part="1" 
+AR Path="/5BE83AC7/5C03AF22" Ref="#PWR062"  Part="1" 
+F 0 "#PWR062" H 3500 2600 50  0001 C CNN
+F 1 "GND" H 3505 2677 50  0000 C CNN
+F 2 "" H 3500 2850 50  0001 C CNN
+F 3 "" H 3500 2850 50  0001 C CNN
+	1    3500 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2800 3500 2800
+Wire Wire Line
+	3500 2800 3500 2850
+Text HLabel 3900 2650 0    50   Input ~ 0
+DRDY
+Wire Wire Line
+	4200 2650 3900 2650
+$Comp
+L Device:R_Small R?
+U 1 1 5C04D379
+P 3800 3300
+AR Path="/5C04D379" Ref="R?"  Part="1" 
+AR Path="/5BE83AC7/5C04D379" Ref="R47"  Part="1" 
+F 0 "R47" V 3800 3300 50  0000 C CNN
+F 1 "10k" V 3850 3150 50  0000 C CNN
+F 2 "" H 3800 3300 50  0001 C CNN
+F 3 "" H 3800 3300 50  0001 C CNN
+F 4 "P10.0KLCT-ND" H -2850 -1400 50  0001 C CNN "Digikey Part #"
+F 5 "RES SMD 10K OHM 1% 1/10W 0402" H -2850 -1400 50  0001 C CNN "Info"
+F 6 "Panasonic Electronic Components" H -2850 -1400 50  0001 C CNN "Manufacturer"
+F 7 "ERJ-2RKF1002X" H -2850 -1400 50  0001 C CNN "Manufacturer Part #"
+	1    3800 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C04D3D9
+P 3500 3350
+AR Path="/5C04D3D9" Ref="#PWR?"  Part="1" 
+AR Path="/5BE83AC7/5C04D3D9" Ref="#PWR063"  Part="1" 
+F 0 "#PWR063" H 3500 3100 50  0001 C CNN
+F 1 "GND" H 3505 3177 50  0000 C CNN
+F 2 "" H 3500 3350 50  0001 C CNN
+F 3 "" H 3500 3350 50  0001 C CNN
+	1    3500 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 3300 3900 3300
+Wire Wire Line
+	3700 3300 3500 3300
+Wire Wire Line
+	3500 3300 3500 3350
+$Comp
+L Device:R_Small R?
+U 1 1 5C05EFB4
+P 4000 2450
+AR Path="/5C05EFB4" Ref="R?"  Part="1" 
+AR Path="/5BE83AC7/5C05EFB4" Ref="R48"  Part="1" 
+F 0 "R48" V 4000 2450 50  0000 C CNN
+F 1 "10k" V 4100 2450 50  0000 C CNN
+F 2 "" H 4000 2450 50  0001 C CNN
+F 3 "" H 4000 2450 50  0001 C CNN
+F 4 "P10.0KLCT-ND" H -2650 -2250 50  0001 C CNN "Digikey Part #"
+F 5 "RES SMD 10K OHM 1% 1/10W 0402" H -2650 -2250 50  0001 C CNN "Info"
+F 6 "Panasonic Electronic Components" H -2650 -2250 50  0001 C CNN "Manufacturer"
+F 7 "ERJ-2RKF1002X" H -2650 -2250 50  0001 C CNN "Manufacturer Part #"
+	1    4000 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 2450 4100 2450
+Wire Wire Line
+	3900 2450 3850 2450
+Wire Wire Line
+	3850 2450 3850 2150
+Wire Wire Line
+	4200 4100 3850 4100
+Wire Wire Line
+	3850 4100 3850 4200
+Connection ~ 3850 4100
+Wire Wire Line
+	4100 4300 3650 4300
+Wire Wire Line
+	3650 4300 3650 4200
+Connection ~ 4100 4300
+Connection ~ 3650 4200
+Wire Wire Line
+	3650 4100 3650 4200
+$Comp
+L Device:R_Small R?
+U 1 1 5C08D2A1
+P 3500 4200
+AR Path="/5C08D2A1" Ref="R?"  Part="1" 
+AR Path="/5BE83AC7/5C08D2A1" Ref="R45"  Part="1" 
+F 0 "R45" V 3500 4200 50  0000 C CNN
+F 1 "1M" V 3400 4200 50  0000 C CNN
+F 2 "" H 3500 4200 50  0001 C CNN
+F 3 "" H 3500 4200 50  0001 C CNN
+F 4 "MCS0402-1.00M-CFCT-ND" H -250 -150 50  0001 C CNN "Digikey Part #"
+F 5 "RES SMD 1M OHM 1% 1/10W 0402" H -250 -150 50  0001 C CNN "Info"
+F 6 "Vishay Beyschlag" H -250 -150 50  0001 C CNN "Manufacturer"
+F 7 "MCS04020C1004FE000" H -250 -150 50  0001 C CNN "Manufacturer Part #"
+	1    3500 4200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 4200 3400 4200
+Wire Wire Line
+	3650 4200 3600 4200
+$Comp
+L Device:R_Small R?
+U 1 1 5C0A829A
+P 3500 4000
+AR Path="/5C0A829A" Ref="R?"  Part="1" 
+AR Path="/5BE83AC7/5C0A829A" Ref="R44"  Part="1" 
+F 0 "R44" V 3500 4000 50  0000 C CNN
+F 1 "10k" V 3600 4000 50  0000 C CNN
+F 2 "" H 3500 4000 50  0001 C CNN
+F 3 "" H 3500 4000 50  0001 C CNN
+F 4 "P10.0KLCT-ND" H -3150 -700 50  0001 C CNN "Digikey Part #"
+F 5 "RES SMD 10K OHM 1% 1/10W 0402" H -3150 -700 50  0001 C CNN "Info"
+F 6 "Panasonic Electronic Components" H -3150 -700 50  0001 C CNN "Manufacturer"
+F 7 "ERJ-2RKF1002X" H -3150 -700 50  0001 C CNN "Manufacturer Part #"
+	1    3500 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C0A8362
+P 3150 3600
+AR Path="/5C0A8362" Ref="#PWR?"  Part="1" 
+AR Path="/5BE83AC7/5C0A8362" Ref="#PWR061"  Part="1" 
+F 0 "#PWR061" H 3150 3450 50  0001 C CNN
+F 1 "+3.3V" H 3165 3773 50  0000 C CNN
+F 2 "" H 3150 3600 50  0001 C CNN
+F 3 "" H 3150 3600 50  0001 C CNN
+	1    3150 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 4000 3600 4000
+Wire Wire Line
+	3950 3550 3950 3750
+$Comp
+L Device:R_Small R?
+U 1 1 5C0C4802
+P 3500 3700
+AR Path="/5C0C4802" Ref="R?"  Part="1" 
+AR Path="/5BE83AC7/5C0C4802" Ref="R43"  Part="1" 
+F 0 "R43" V 3500 3700 50  0000 C CNN
+F 1 "10k" V 3600 3700 50  0000 C CNN
+F 2 "" H 3500 3700 50  0001 C CNN
+F 3 "" H 3500 3700 50  0001 C CNN
+F 4 "P10.0KLCT-ND" H -3150 -1000 50  0001 C CNN "Digikey Part #"
+F 5 "RES SMD 10K OHM 1% 1/10W 0402" H -3150 -1000 50  0001 C CNN "Info"
+F 6 "Panasonic Electronic Components" H -3150 -1000 50  0001 C CNN "Manufacturer"
+F 7 "ERJ-2RKF1002X" H -3150 -1000 50  0001 C CNN "Manufacturer Part #"
+	1    3500 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 3700 3600 3700
+Wire Wire Line
+	3400 3700 3150 3700
+Wire Wire Line
+	3150 3700 3150 3600
+Wire Wire Line
+	3150 4000 3150 3700
+Wire Wire Line
+	3150 4000 3400 4000
+Connection ~ 3150 3700
 $EndSCHEMATC

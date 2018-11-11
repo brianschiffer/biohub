@@ -15,19 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L biohub:ADP3605 U?
-U 1 1 5BF30C6B
-P 2250 2500
-AR Path="/5BF30C6B" Ref="U?"  Part="1" 
-AR Path="/5BE83956/5BF30C6B" Ref="U4"  Part="1" 
-F 0 "U4" H 2250 2875 50  0000 C CNN
-F 1 "ADP3605" H 2250 2784 50  0000 C CNN
-F 2 "biohub:ADP3605ARZ" H 2150 2200 50  0001 C CNN
-F 3 "" H 2150 2200 50  0001 C CNN
-	1    2250 2500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3.3V #PWR?
 U 1 1 5BF30C72
 P 1150 2250
@@ -124,20 +111,16 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5BF30C9D
-P 2800 2750
+P 3000 2750
 AR Path="/5BF30C9D" Ref="#PWR?"  Part="1" 
 AR Path="/5BE83956/5BF30C9D" Ref="#PWR030"  Part="1" 
-F 0 "#PWR030" H 2800 2500 50  0001 C CNN
-F 1 "GND" H 2805 2577 50  0000 C CNN
-F 2 "" H 2800 2750 50  0001 C CNN
-F 3 "" H 2800 2750 50  0001 C CNN
-	1    2800 2750
+F 0 "#PWR030" H 3000 2500 50  0001 C CNN
+F 1 "GND" H 3005 2577 50  0000 C CNN
+F 2 "" H 3000 2750 50  0001 C CNN
+F 3 "" H 3000 2750 50  0001 C CNN
+	1    3000 2750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2750 2650 2800 2650
-Wire Wire Line
-	2800 2650 2800 2750
 $Comp
 L power:-3V3 #PWR?
 U 1 1 5BF30CA5
@@ -181,43 +164,8 @@ F 3 "" H 3250 2750 50  0001 C CNN
 	1    3250 2750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5BF30CB8
-P 2900 2450
-AR Path="/5BF30CB8" Ref="R?"  Part="1" 
-AR Path="/5BE83956/5BF30CB8" Ref="R4"  Part="1" 
-F 0 "R4" V 2900 2450 50  0000 C CNN
-F 1 "21k" V 2950 2600 50  0000 C CNN
-F 2 "" H 2900 2450 50  0001 C CNN
-F 3 "" H 2900 2450 50  0001 C CNN
-F 4 "541-3139-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
-F 5 "RES 21K OHM 0.1% 1/10W 0402" H 0   0   50  0001 C CNN "Info"
-F 6 "Vishay Dale" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "TNPW040221K0BEED" H 0   0   50  0001 C CNN "Manufacturer Part #"
-	1    2900 2450
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3250 2750 3250 2600
-Wire Wire Line
-	3250 2400 3250 2350
-Connection ~ 3250 2350
-Wire Wire Line
-	3250 2350 3250 2150
-Wire Wire Line
-	2800 2450 2750 2450
-Wire Wire Line
-	3000 2450 3100 2450
-Wire Wire Line
-	3100 2450 3100 2350
-Connection ~ 3100 2350
-Wire Wire Line
-	3100 2350 3250 2350
-Wire Wire Line
-	2750 2350 3100 2350
-Text Notes 2450 2200 0    50   ~ 0
-Vout = (1.5/9.5)*R
 Text Notes 3200 1900 2    197  ~ 0
 Analog Power
 $Comp
@@ -342,6 +290,10 @@ F 0 "U5" H 6450 2507 60  0000 C CNN
 F 1 "ADP7142AUJZ-2.5-R7" H 6450 2401 60  0000 C CNN
 F 2 "biohub:ADP7142AUJZ-R7" H 6400 2340 60  0001 C CNN
 F 3 "" H 5850 2250 60  0000 C CNN
+F 4 "ADP7142AUJZ-2.5-R7CT-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "IC REG LIN 2.5V 200MA TSOT23-5" H 0   0   50  0001 C CNN "Info"
+F 6 "Analog Devices Inc." H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ADP7142AUJZ-2.5-R7" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    5850 2250
 	1    0    0    -1  
 $EndComp
@@ -355,6 +307,11 @@ F 0 "U6" H 6425 3907 60  0000 C CNN
 F 1 "ADP7182AUJZ-2.5-R7" H 6425 3801 60  0000 C CNN
 F 2 "biohub:ADP7182AUJZ-R7" H 6650 3790 60  0001 C CNN
 F 3 "" H 5850 3450 60  0000 C CNN
+F 4 "ADP7182AUJZ-2.5-R7CT-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "IC REG LINEAR -2.5V 200MA 5TSOT" H 0   0   50  0001 C CNN "Info"
+F 6 "Analog Devices Inc." H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "	ADP7182AUJZ-2.5-R7" H 0   0   50  0001 C CNN "Manufacturer Part #"
+F 8 "ADP7182AUJZ-2.5-R7" H 0   0   50  0001 C CNN "digikey#"
 	1    5850 3450
 	1    0    0    -1  
 $EndComp
@@ -590,4 +547,41 @@ Wire Wire Line
 	1900 4650 2000 4650
 Wire Wire Line
 	2000 4650 2000 4750
+$Comp
+L biohub:ADM8660ARZ U4
+U 1 1 5C11A03F
+P 1750 2550
+F 0 "U4" H 2325 3037 60  0000 C CNN
+F 1 "ADM8660ARZ" H 2325 2931 60  0000 C CNN
+F 2 "biohub:ADM8660ARZ" H 2550 2890 60  0001 C CNN
+F 3 "" H 1750 2550 60  0000 C CNN
+F 4 "	ADM8660ARZ-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "ADM8660ARZ-ND" H 0   0   50  0001 C CNN "Field4"
+F 6 "IC REG SWITCHD CAP INV 8SOIC" H 0   0   50  0001 C CNN "Info"
+F 7 "Analog Devices Inc." H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "ADM8660ARZ" H 0   0   50  0001 C CNN "Manufacturer Part #"
+	1    1750 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 2150 3250 2350
+Wire Wire Line
+	2900 2350 3250 2350
+Connection ~ 3250 2350
+Wire Wire Line
+	3250 2350 3250 2400
+Wire Wire Line
+	2900 2650 3000 2650
+Wire Wire Line
+	3000 2650 3000 2750
+Wire Wire Line
+	2900 2450 3000 2450
+Wire Wire Line
+	3000 2450 3000 2550
+Connection ~ 3000 2650
+Wire Wire Line
+	2900 2550 3000 2550
+Connection ~ 3000 2550
+Wire Wire Line
+	3000 2550 3000 2650
 $EndSCHEMATC

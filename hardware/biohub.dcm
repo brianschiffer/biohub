@@ -4,6 +4,12 @@ $CMP 1050170001
 D CONN RCPT MICRO USB R/A SMD
 $ENDCMP
 #
+$CMP ADUM1412BRWZ
+D Quad Channel Digital Isolator,10Mbps,SO-16
+K Digital Isolator
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1410_1411_1412.pdf
+$ENDCMP
+#
 $CMP FT220XS
 D Full Speed USB to 4-Bit SPI / FT1248 Bridge, SSOP-16
 K FTDI USB SPI FT1248 Interface Converter

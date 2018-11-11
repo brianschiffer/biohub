@@ -22,6 +22,10 @@ F 0 "U3" H 8400 2650 50  0000 C CNN
 F 1 "ADUM6020" H 8400 1750 50  0000 C CNN
 F 2 "biohub:ADUM6020" H 8050 2650 50  0001 C CNN
 F 3 "" H 8050 2650 50  0001 C CNN
+F 4 "ADUM6020-5BRIZ-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "DC DC CONVERTER 5KV 500MW" H 0   0   50  0001 C CNN "Info"
+F 6 "Analog Devices Inc." H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ADUM6020-5BRIZ" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    8400 2200
 	1    0    0    -1  
 $EndComp
@@ -269,24 +273,6 @@ Wire Wire Line
 Text Notes 9500 1500 2    197  ~ 0
 Power Isolation
 $Comp
-L biohub:ADUM1411BRWZ U?
-U 1 1 5BEF1DD2
-P 2850 5550
-AR Path="/5BEF1DD2" Ref="U?"  Part="1" 
-AR Path="/5BE83916/5BEF1DD2" Ref="U1"  Part="1" 
-F 0 "U1" H 2850 6320 50  0000 C CNN
-F 1 "ADUM1411BRWZ" H 2850 6229 50  0000 C CNN
-F 2 "biohub:ADUM1411BRWZ" H 2850 5550 50  0001 L BNN
-F 3 "" H 2850 5550 50  0001 L BNN
-F 4 "SOIC-16 Analog Devices" H 2850 5550 50  0001 L BNN "Field4"
-F 5 "ADUM1411BRWZ" H 2850 5550 50  0001 L BNN "Field5"
-F 6 "None" H 2850 5550 50  0001 L BNN "Field6"
-F 7 "Digital Isolator CMOS 4-CH 10Mbps 16-Pin SOIC W Tube" H 2850 5550 50  0001 L BNN "Field7"
-F 8 "Analog Devices" H 2850 5550 50  0001 L BNN "Field8"
-	1    2850 5550
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VCOM #PWR?
 U 1 1 5BEF1DD9
 P 2050 5100
@@ -299,8 +285,6 @@ F 3 "" H 2050 5100 50  0001 C CNN
 	1    2050 5100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2150 5150 2050 5150
 Wire Wire Line
 	2050 5150 2050 5100
 $Comp
@@ -317,8 +301,6 @@ F 3 "" H 3650 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3550 5150 3650 5150
-Wire Wire Line
 	3650 5150 3650 5100
 $Comp
 L power:GNDD #PWR?
@@ -334,11 +316,7 @@ F 3 "" H 2050 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2150 6050 2050 6050
-Wire Wire Line
 	2050 6050 2050 6150
-Wire Wire Line
-	2150 6150 2050 6150
 Connection ~ 2050 6150
 Wire Wire Line
 	2050 6150 2050 6250
@@ -398,40 +376,18 @@ Wire Wire Line
 Connection ~ 2050 6050
 Wire Wire Line
 	3650 5350 3650 6050
-Wire Wire Line
-	3550 6050 3650 6050
 Connection ~ 3650 6050
 Wire Wire Line
 	3650 6050 3650 6150
-Wire Wire Line
-	3550 6150 3650 6150
 Connection ~ 3650 6150
 Wire Wire Line
 	3650 6150 3650 6250
-Wire Wire Line
-	2150 5450 1450 5450
-Wire Wire Line
-	2150 5550 1450 5550
-Wire Wire Line
-	2150 5650 1450 5650
-Wire Wire Line
-	2150 5750 1450 5750
 Text Label 1450 5450 0    50   ~ 0
 USB_SPI_MOSI
-Text Label 1450 5550 0    50   ~ 0
+Text Label 1450 5350 0    50   ~ 0
 USB_SPI_CLK
-Text Label 1450 5650 0    50   ~ 0
-USB_SPI_CS
-Text Label 1450 5750 0    50   ~ 0
+Text Label 1450 5550 0    50   ~ 0
 USB_SPI_MISO
-Wire Wire Line
-	3550 5450 4100 5450
-Wire Wire Line
-	3550 5550 4100 5550
-Wire Wire Line
-	3550 5650 4100 5650
-Wire Wire Line
-	3550 5750 4100 5750
 Text Notes 3850 4650 2    197  ~ 0
 SPI ISOLATION
 $Comp
@@ -633,13 +589,13 @@ P 2000 3100
 AR Path="/5BF11FE2" Ref="R?"  Part="1" 
 AR Path="/5BE83916/5BF11FE2" Ref="R1"  Part="1" 
 F 0 "R1" H 2059 3146 50  0000 L CNN
-F 1 "0" H 2059 3055 50  0000 L CNN
+F 1 "10k" H 2059 3055 50  0000 L CNN
 F 2 "" H 2000 3100 50  0001 C CNN
 F 3 "" H 2000 3100 50  0001 C CNN
-F 4 "MCS0402-0.0-ZZCT-ND" H 0   0   50  0001 C CNN "Digikey Part #"
-F 5 "RES SMD 0 OHM JUMPER 1/10W 0402" H 0   0   50  0001 C CNN "Info"
-F 6 "Vishay Beyschlag" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "MCS04020Z0000ZE000" H 0   0   50  0001 C CNN "Manufacturer Part #"
+F 4 "P10.0KLCT-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "RES SMD 10K OHM 1% 1/10W 0402" H 0   0   50  0001 C CNN "Info"
+F 6 "Panasonic Electronic Components" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERJ-2RKF1002X" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    2000 3100
 	1    0    0    -1  
 $EndComp
@@ -740,79 +696,20 @@ Wire Wire Line
 	3000 2550 2550 2550
 Connection ~ 2550 2550
 Wire Wire Line
-	3200 2450 3350 2450
-Wire Wire Line
-	3200 2550 3350 2550
-Wire Wire Line
 	3300 3350 3300 3250
-Wire Wire Line
-	3350 2750 3300 2750
-Wire Wire Line
-	3300 2750 3300 3050
-Wire Wire Line
-	3350 2150 3300 2150
-Wire Wire Line
-	3300 2150 3300 2750
-Connection ~ 3300 2750
-Wire Wire Line
-	3300 1750 3300 2150
-Connection ~ 3300 2150
 $Comp
 L power:VBUS #PWR?
 U 1 1 5BF12022
-P 4150 1700
+P 3500 1650
 AR Path="/5BF12022" Ref="#PWR?"  Part="1" 
 AR Path="/5BE83916/5BF12022" Ref="#PWR012"  Part="1" 
-F 0 "#PWR012" H 4150 1550 50  0001 C CNN
-F 1 "VBUS" H 4165 1873 50  0000 C CNN
-F 2 "" H 4150 1700 50  0001 C CNN
-F 3 "" H 4150 1700 50  0001 C CNN
-	1    4150 1700
+F 0 "#PWR012" H 3500 1500 50  0001 C CNN
+F 1 "VBUS" H 3515 1823 50  0000 C CNN
+F 2 "" H 3500 1650 50  0001 C CNN
+F 3 "" H 3500 1650 50  0001 C CNN
+	1    3500 1650
 	1    0    0    -1  
 $EndComp
-$Comp
-L biohub:FT220XS U?
-U 1 1 5BF12028
-P 4050 2550
-AR Path="/5BF12028" Ref="U?"  Part="1" 
-AR Path="/5BE83916/5BF12028" Ref="U2"  Part="1" 
-F 0 "U2" H 4550 3150 50  0000 C CNN
-F 1 "FT220XS" H 4050 2550 50  0000 C CNN
-F 2 "biohub:FT220X" H 4600 1850 50  0001 C CNN
-F 3 "" H 4050 2550 50  0001 C CNN
-	1    4050 2550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 1850 3950 1750
-Wire Wire Line
-	3950 1750 3300 1750
-Wire Wire Line
-	4150 1850 4150 1700
-$Comp
-L power:GNDD #PWR?
-U 1 1 5BF12032
-P 4050 3350
-AR Path="/5BF12032" Ref="#PWR?"  Part="1" 
-AR Path="/5BE83916/5BF12032" Ref="#PWR011"  Part="1" 
-F 0 "#PWR011" H 4050 3100 50  0001 C CNN
-F 1 "GNDD" H 4054 3195 50  0000 C CNN
-F 2 "" H 4050 3350 50  0001 C CNN
-F 3 "" H 4050 3350 50  0001 C CNN
-	1    4050 3350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 3250 3950 3300
-Wire Wire Line
-	3950 3300 4050 3300
-Wire Wire Line
-	4150 3300 4150 3250
-Wire Wire Line
-	4050 3300 4050 3350
-Connection ~ 4050 3300
-Wire Wire Line
-	4050 3300 4150 3300
 $Comp
 L power:VBUS #PWR?
 U 1 1 5BF1203E
@@ -861,21 +758,11 @@ Wire Wire Line
 Connection ~ 1600 1350
 Wire Wire Line
 	1600 1350 1750 1350
-Wire Wire Line
-	4750 2150 4850 2150
-Wire Wire Line
-	4750 2650 4850 2650
-Wire Wire Line
-	4750 2750 4850 2750
-Wire Wire Line
-	4750 2850 4850 2850
-Text Label 4850 2150 0    50   ~ 0
+Text Label 5200 2000 0    50   ~ 0
 USB_SPI_MOSI
-Text Label 4850 2650 0    50   ~ 0
+Text Label 5200 1850 0    50   ~ 0
 USB_SPI_CLK
-Text Label 4850 2750 0    50   ~ 0
-USB_SPI_CS
-Text Label 4850 2850 0    50   ~ 0
+Text Label 5200 2150 0    50   ~ 0
 USB_SPI_MISO
 $Comp
 L power:VCOM #PWR?
@@ -890,16 +777,13 @@ F 3 "" H 3300 1750 50  0001 C CNN
 	1    3300 1750
 	1    0    0    -1  
 $EndComp
-Connection ~ 3300 1750
 Text Notes 4200 1300 2    197  ~ 0
 USB <-> SPI
-Text HLabel 4100 5550 2    50   Input ~ 0
+Text HLabel 4100 5350 2    50   Input ~ 0
 SCLK
 Text HLabel 4100 5450 2    50   Input ~ 0
 MOSI
-Text HLabel 4100 5650 2    50   Input ~ 0
-CS
-Text HLabel 4100 5750 2    50   Input ~ 0
+Text HLabel 4100 5550 2    50   Input ~ 0
 MISO
 Text HLabel 10700 2200 0    50   Input ~ 0
 GND_ISO
@@ -943,4 +827,157 @@ Wire Wire Line
 Wire Wire Line
 	9600 2600 9600 2700
 Connection ~ 9600 2600
+$Comp
+L biohub:MCP2210-I_SS U2
+U 1 1 5BFA9135
+P 3500 1700
+F 0 "U2" H 4300 1887 60  0000 C CNN
+F 1 "MCP2210-I_SS" H 4300 1781 60  0000 C CNN
+F 2 "biohub:MCP2210" H 4300 1940 60  0001 C CNN
+F 3 "" H 3500 1700 60  0000 C CNN
+F 4 "MCP2210T-I/SSCT-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "IC CONVERTER USB-SPI 20-SSOP" H 0   0   50  0001 C CNN "Info"
+F 6 "Microchip Technology" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "MCP2210T-I/SS" H 0   0   50  0001 C CNN "Manufacturer Part #"
+	1    3500 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2450 3500 2450
+Wire Wire Line
+	3200 2550 3500 2550
+Wire Wire Line
+	3300 1750 3300 1950
+Wire Wire Line
+	3500 1800 3500 1650
+Wire Wire Line
+	3500 1950 3300 1950
+Connection ~ 3300 1950
+Wire Wire Line
+	3300 1950 3300 2150
+$Comp
+L Device:R_Small R?
+U 1 1 5BFC10C3
+P 3400 2150
+AR Path="/5BFC10C3" Ref="R?"  Part="1" 
+AR Path="/5BE83916/5BFC10C3" Ref="R42"  Part="1" 
+F 0 "R42" H 3459 2196 50  0000 L CNN
+F 1 "10k" H 3459 2105 50  0000 L CNN
+F 2 "" H 3400 2150 50  0001 C CNN
+F 3 "" H 3400 2150 50  0001 C CNN
+F 4 "P10.0KLCT-ND" H 1400 -950 50  0001 C CNN "Digikey Part #"
+F 5 "RES SMD 10K OHM 1% 1/10W 0402" H 1400 -950 50  0001 C CNN "Info"
+F 6 "Panasonic Electronic Components" H 1400 -950 50  0001 C CNN "Manufacturer"
+F 7 "ERJ-2RKF1002X" H 1400 -950 50  0001 C CNN "Manufacturer Part #"
+	1    3400 2150
+	0    1    1    0   
+$EndComp
+Connection ~ 3300 2150
+Wire Wire Line
+	3300 2150 3300 3050
+Wire Wire Line
+	3500 3250 3300 3250
+Connection ~ 3300 3250
+Wire Wire Line
+	5100 1850 5200 1850
+Wire Wire Line
+	5100 2000 5200 2000
+Wire Wire Line
+	5100 2150 5200 2150
+Wire Wire Line
+	5100 3050 5200 3050
+Text Label 5200 3050 0    50   ~ 0
+USB_SPI_DATA_READY
+$Comp
+L biohub:CSTNE12M0GH5L000R0 XTL1
+U 1 1 5BFDBE34
+P 3850 3800
+F 0 "XTL1" H 4541 3703 60  0000 L CNN
+F 1 "CSTNE12M0GH5L000R0" H 4541 3597 60  0000 L CNN
+F 2 "biohub:CSTNE12M0GH5L000R0" H 4250 3065 60  0001 C CNN
+F 3 "" H 3850 3800 60  0000 C CNN
+F 4 "490-17947-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "CER RES 12.0000MHZ 33PF SMD TIGH" H 0   0   50  0001 C CNN "Info"
+F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "CSTNE12M0GH5L000R0" H 0   0   50  0001 C CNN "Manufacturer Part #"
+F 8 "CSTNE12M0GH5L000R0" H 0   0   50  0001 C CNN "digikey#"
+	1    3850 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3650 4000 3650
+Wire Wire Line
+	4000 3650 4000 3700
+Wire Wire Line
+	4400 3650 4500 3650
+Wire Wire Line
+	4500 3650 4500 3700
+$Comp
+L power:GNDD #PWR?
+U 1 1 5BFE7FB2
+P 4250 4250
+AR Path="/5BFE7FB2" Ref="#PWR?"  Part="1" 
+AR Path="/5BE83916/5BFE7FB2" Ref="#PWR011"  Part="1" 
+F 0 "#PWR011" H 4250 4000 50  0001 C CNN
+F 1 "GNDD" H 4254 4095 50  0000 C CNN
+F 2 "" H 4250 4250 50  0001 C CNN
+F 3 "" H 4250 4250 50  0001 C CNN
+	1    4250 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 4200 4250 4250
+$Comp
+L biohub:ADUM1412BRWZ U1
+U 1 1 5BFF3FF8
+P 2850 5650
+F 0 "U1" H 2850 6417 50  0000 C CNN
+F 1 "ADUM1412BRWZ" H 2850 6326 50  0000 C CNN
+F 2 "biohub:ADUM1412BRWZ" H 2850 4950 50  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1410_1411_1412.pdf" H 2050 5650 50  0001 C CNN
+F 4 "ADUM1412BRWZ-ND" H 0   0   50  0001 C CNN "Digikey Part #"
+F 5 "DGTL ISO 3.75KV GEN PURP 16SOIC" H 0   0   50  0001 C CNN "Info"
+F 6 "Analog Devices Inc." H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ADUM1412BRWZ" H 0   0   50  0001 C CNN "Manufacturer Part #"
+	1    2850 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 5150 2250 5150
+Wire Wire Line
+	2050 6050 2250 6050
+Wire Wire Line
+	2050 6150 2250 6150
+Wire Wire Line
+	3450 6150 3650 6150
+Wire Wire Line
+	3450 6050 3650 6050
+Wire Wire Line
+	2250 5350 2050 5350
+Connection ~ 2050 5350
+Wire Wire Line
+	2050 5350 1450 5350
+Wire Wire Line
+	2250 5450 1450 5450
+Wire Wire Line
+	2250 5550 1450 5550
+Wire Wire Line
+	2250 5650 1450 5650
+Text Label 1450 5650 0    50   ~ 0
+USB_SPI_DATA_READY
+Wire Wire Line
+	3450 5350 3650 5350
+Connection ~ 3650 5350
+Wire Wire Line
+	3650 5350 4100 5350
+Wire Wire Line
+	3450 5450 4100 5450
+Wire Wire Line
+	3450 5550 4100 5550
+Wire Wire Line
+	3450 5650 4100 5650
+Text HLabel 4100 5650 2    50   Input ~ 0
+DRDY
+Wire Wire Line
+	3450 5150 3650 5150
 $EndSCHEMATC
