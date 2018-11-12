@@ -263,7 +263,7 @@ $EndComp
 Wire Wire Line
 	5200 2000 5200 1950
 Wire Wire Line
-	5200 1750 5450 1750
+	5200 1750 5300 1750
 Wire Wire Line
 	5300 2000 5300 1950
 Wire Wire Line
@@ -532,23 +532,6 @@ Wire Wire Line
 Connection ~ 6200 1750
 $Comp
 L Device:C_Small C?
-U 1 1 5BF4DDD5
-P 1700 2850
-AR Path="/5BF4DDD5" Ref="C?"  Part="1" 
-AR Path="/5BE83AC7/5BF4DDD5" Ref="C24"  Part="1" 
-F 0 "C24" H 1792 2896 50  0000 L CNN
-F 1 "1u" H 1750 2800 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 1700 2850 50  0001 C CNN
-F 3 "" H 1700 2850 50  0001 C CNN
-F 4 "490-5800-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
-F 5 "CAP CER 1UF 16V X7R 0805" H 0   0   50  0001 C CNN "Info"
-F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "GCJ219R71C105KA01D" H 0   0   50  0001 C CNN "Manufacturer Part #"
-	1    1700 2850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C?
 U 1 1 5BF4DDDC
 P 2050 2850
 AR Path="/5BF4DDDC" Ref="C?"  Part="1" 
@@ -757,23 +740,6 @@ Connection ~ 4600 4550
 Wire Wire Line
 	4600 4550 4700 4550
 $Comp
-L Device:C_Small C?
-U 1 1 5BF4DE41
-P 1700 3250
-AR Path="/5BF4DE41" Ref="C?"  Part="1" 
-AR Path="/5BE83AC7/5BF4DE41" Ref="C25"  Part="1" 
-F 0 "C25" H 1792 3296 50  0000 L CNN
-F 1 "1u" H 1750 3200 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 1700 3250 50  0001 C CNN
-F 3 "" H 1700 3250 50  0001 C CNN
-F 4 "490-5800-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
-F 5 "CAP CER 1UF 16V X7R 0805" H 0   0   50  0001 C CNN "Info"
-F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "GCJ219R71C105KA01D" H 0   0   50  0001 C CNN "Manufacturer Part #"
-	1    1700 3250
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:-2V5 #PWR?
 U 1 1 5BF4DE4F
 P 1300 3300
@@ -800,37 +766,16 @@ F 3 "" H 1300 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1300 2650 1700 2650
-Wire Wire Line
 	2050 2650 2050 2750
-Wire Wire Line
-	1700 2650 1700 2750
-Connection ~ 1700 2650
-Wire Wire Line
-	1700 2650 2050 2650
 Wire Wire Line
 	1300 3300 1300 3450
 Wire Wire Line
-	1300 3450 1700 3450
-Wire Wire Line
 	2050 3450 2050 3350
-Wire Wire Line
-	1700 3350 1700 3450
-Connection ~ 1700 3450
-Wire Wire Line
-	1700 3450 2050 3450
 Wire Wire Line
 	2250 3050 2050 3050
 Wire Wire Line
-	1700 3050 1700 3150
-Wire Wire Line
-	1700 2950 1700 3050
-Connection ~ 1700 3050
-Wire Wire Line
 	2050 2950 2050 3050
 Connection ~ 2050 3050
-Wire Wire Line
-	2050 3050 1700 3050
 Wire Wire Line
 	2050 3150 2050 3050
 $Comp
@@ -847,7 +792,7 @@ F 3 "" H 5900 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 1750 5900 1750
+	5650 1750 5750 1750
 $Comp
 L power:GNDA #PWR?
 U 1 1 5BF4DE75
@@ -1326,5 +1271,40 @@ F 7 "Murata Electronics North America" H 0   400 50  0001 C CNN "Manufacturer"
 F 8 "GCJ188R71C104KA01D" H 0   400 50  0001 C CNN "Manufacturer Part #"
 	1    2050 3250
 	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5450 1600 5300 1600
+Wire Wire Line
+	5300 1600 5300 1750
+Connection ~ 5300 1750
+Wire Wire Line
+	5300 1750 5450 1750
+Wire Wire Line
+	5650 1600 5750 1600
+Wire Wire Line
+	5750 1600 5750 1750
+Connection ~ 5750 1750
+Wire Wire Line
+	5750 1750 5900 1750
+Wire Wire Line
+	1300 2650 2050 2650
+Wire Wire Line
+	1300 3450 2050 3450
+$Comp
+L Device:C_Small C?
+U 1 1 5BEE326B
+P 5550 1600
+AR Path="/5BEE326B" Ref="C?"  Part="1" 
+AR Path="/5BE83AC7/5BEE326B" Ref="C53"  Part="1" 
+F 0 "C53" H 5642 1646 50  0000 L CNN
+F 1 "1u" H 5600 1550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 5550 1600 50  0001 C CNN
+F 3 "" H 5550 1600 50  0001 C CNN
+F 4 "490-5800-1-ND" H 0   -150 50  0001 C CNN "Digikey Part #"
+F 5 "CAP CER 1UF 16V X7R 0805" H 0   -150 50  0001 C CNN "Info"
+F 6 "Murata Electronics North America" H 0   -150 50  0001 C CNN "Manufacturer"
+F 7 "GCJ219R71C105KA01D" H 0   -150 50  0001 C CNN "Manufacturer Part #"
+	1    5550 1600
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

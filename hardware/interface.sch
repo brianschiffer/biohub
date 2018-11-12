@@ -806,8 +806,6 @@ Connection ~ 4100 4450
 Wire Wire Line
 	4100 4450 5250 4450
 Connection ~ 4800 4650
-Wire Wire Line
-	4800 4650 5200 4650
 $Comp
 L Device:R_Small R24
 U 1 1 5BFA9EAE
@@ -1290,8 +1288,6 @@ Wire Wire Line
 Wire Wire Line
 	8400 5500 8100 5500
 Wire Wire Line
-	8400 5600 8100 5600
-Wire Wire Line
 	8400 5700 8100 5700
 $Comp
 L power:+2V5 #PWR?
@@ -1309,21 +1305,21 @@ $EndComp
 $Comp
 L power:-2V5 #PWR?
 U 1 1 5C04FA11
-P 8100 5400
+P 8050 5400
 AR Path="/5C04FA11" Ref="#PWR?"  Part="1" 
 AR Path="/5BE83BFD/5C04FA11" Ref="#PWR0102"  Part="1" 
-F 0 "#PWR0102" H 8100 5500 50  0001 C CNN
-F 1 "-2V5" H 8115 5573 50  0000 C CNN
-F 2 "" H 8100 5400 50  0001 C CNN
-F 3 "" H 8100 5400 50  0001 C CNN
-	1    8100 5400
+F 0 "#PWR0102" H 8050 5500 50  0001 C CNN
+F 1 "-2V5" H 8065 5573 50  0000 C CNN
+F 2 "" H 8050 5400 50  0001 C CNN
+F 3 "" H 8050 5400 50  0001 C CNN
+	1    8050 5400
 	1    0    0    -1  
 $EndComp
-Text Label 8100 5600 0    50   ~ 0
+Text Label 8100 5400 0    50   ~ 0
 SRB2
-Text Label 8100 5500 0    50   ~ 0
+Text Label 8100 5700 0    50   ~ 0
 SRB1
-Text Label 8100 4200 0    50   ~ 0
+Text Label 8100 4300 0    50   ~ 0
 BIAS
 Text Label 1050 1500 0    50   ~ 0
 1P
@@ -1522,16 +1518,9 @@ Wire Wire Line
 	4500 2050 4500 1600
 Connection ~ 4500 1600
 Wire Wire Line
-	4500 1600 5200 1600
-Wire Wire Line
 	4800 1700 4800 2050
 Wire Wire Line
-	5200 2050 5200 1600
-Connection ~ 5200 1600
-Wire Wire Line
-	5200 1600 5250 1600
-Wire Wire Line
-	5100 1800 5250 1800
+	5100 1800 5200 1800
 Wire Wire Line
 	4400 1600 4500 1600
 Wire Wire Line
@@ -1632,12 +1621,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 4650 4800 5050
 Wire Wire Line
-	5200 5050 5200 4650
-Connection ~ 5200 4650
-Wire Wire Line
-	5200 4650 5250 4650
-Wire Wire Line
-	5100 4750 5250 4750
+	5100 4750 5200 4750
 Wire Wire Line
 	4100 5900 4100 6500
 Wire Wire Line
@@ -1983,4 +1967,22 @@ Wire Wire Line
 Connection ~ 5000 2250
 Wire Wire Line
 	7600 1700 7800 1700
+Wire Wire Line
+	8050 5600 8050 5400
+Wire Wire Line
+	8050 5600 8400 5600
+Wire Wire Line
+	4800 4650 5250 4650
+Wire Wire Line
+	5200 5050 5200 4750
+Connection ~ 5200 4750
+Wire Wire Line
+	5200 4750 5250 4750
+Wire Wire Line
+	4500 1600 5250 1600
+Wire Wire Line
+	5200 2050 5200 1800
+Connection ~ 5200 1800
+Wire Wire Line
+	5200 1800 5250 1800
 $EndSCHEMATC
