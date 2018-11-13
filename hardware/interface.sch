@@ -55,41 +55,9 @@ Wire Wire Line
 Wire Wire Line
 	8900 2400 8600 2400
 Wire Wire Line
-	8900 2500 8600 2500
-Wire Wire Line
-	8900 2600 8600 2600
-Wire Wire Line
-	8900 2700 8600 2700
-Wire Wire Line
-	8900 2800 8600 2800
-Wire Wire Line
-	8900 2900 8600 2900
-Wire Wire Line
-	8900 3000 8600 3000
-Wire Wire Line
-	8900 3100 8600 3100
-Wire Wire Line
-	8900 3200 8600 3200
-Wire Wire Line
 	8900 3300 8600 3300
 Wire Wire Line
 	9400 2400 9700 2400
-Wire Wire Line
-	9400 2500 9700 2500
-Wire Wire Line
-	9400 2600 9700 2600
-Wire Wire Line
-	9400 2700 9700 2700
-Wire Wire Line
-	9400 2800 9700 2800
-Wire Wire Line
-	9400 2900 9700 2900
-Wire Wire Line
-	9400 3000 9700 3000
-Wire Wire Line
-	9400 3100 9700 3100
-Wire Wire Line
-	9400 3200 9700 3200
 Wire Wire Line
 	9400 3300 9700 3300
 $Comp
@@ -125,7 +93,7 @@ P 8450 3350
 AR Path="/5BF54EAE" Ref="#PWR?"  Part="1" 
 AR Path="/5BE83BFD/5BF54EAE" Ref="#PWR0104"  Part="1" 
 F 0 "#PWR0104" H 8450 3450 50  0001 C CNN
-F 1 "-2V5" H 8465 3523 50  0000 C CNN
+F 1 "-2V5" H 8350 3500 50  0000 C CNN
 F 2 "" H 8450 3350 50  0001 C CNN
 F 3 "" H 8450 3350 50  0001 C CNN
 	1    8450 3350
@@ -138,7 +106,7 @@ P 9850 3350
 AR Path="/5BF54EB4" Ref="#PWR?"  Part="1" 
 AR Path="/5BE83BFD/5BF54EB4" Ref="#PWR0110"  Part="1" 
 F 0 "#PWR0110" H 9850 3450 50  0001 C CNN
-F 1 "-2V5" H 9865 3523 50  0000 C CNN
+F 1 "-2V5" H 9900 3500 50  0000 C CNN
 F 2 "" H 9850 3350 50  0001 C CNN
 F 3 "" H 9850 3350 50  0001 C CNN
 	1    9850 3350
@@ -159,7 +127,7 @@ P 8450 2350
 AR Path="/5BF54EBE" Ref="#PWR?"  Part="1" 
 AR Path="/5BE83BFD/5BF54EBE" Ref="#PWR0103"  Part="1" 
 F 0 "#PWR0103" H 8450 2100 50  0001 C CNN
-F 1 "GNDA" H 8455 2177 50  0000 C CNN
+F 1 "GNDA" H 8350 2200 50  0000 C CNN
 F 2 "" H 8450 2350 50  0001 C CNN
 F 3 "" H 8450 2350 50  0001 C CNN
 	1    8450 2350
@@ -172,7 +140,7 @@ P 9850 2350
 AR Path="/5BF54EC4" Ref="#PWR?"  Part="1" 
 AR Path="/5BE83BFD/5BF54EC4" Ref="#PWR0109"  Part="1" 
 F 0 "#PWR0109" H 9850 2100 50  0001 C CNN
-F 1 "GNDA" H 9855 2177 50  0000 C CNN
+F 1 "GNDA" H 9950 2200 50  0000 C CNN
 F 2 "" H 9850 2350 50  0001 C CNN
 F 3 "" H 9850 2350 50  0001 C CNN
 	1    9850 2350
@@ -188,42 +156,42 @@ Wire Wire Line
 	8450 2300 8900 2300
 Text Label 8600 2400 0    50   ~ 0
 BIAS
-Text Label 8600 3200 0    50   ~ 0
-8P
-Text Label 8600 3100 0    50   ~ 0
-7P
-Text Label 8600 3000 0    50   ~ 0
-6P
-Text Label 8600 2800 0    50   ~ 0
-4P
-Text Label 8600 2900 0    50   ~ 0
-5P
-Text Label 8600 2700 0    50   ~ 0
-3P
-Text Label 8600 2600 0    50   ~ 0
-2P
-Text Label 8600 2500 0    50   ~ 0
-1P
+Text Label 8550 3200 0    50   ~ 0
+CONN_8P
+Text Label 8550 3100 0    50   ~ 0
+CONN_7P
+Text Label 8550 3000 0    50   ~ 0
+CONN_6P
+Text Label 8550 2800 0    50   ~ 0
+CONN_4P
+Text Label 8550 2900 0    50   ~ 0
+CONN_5P
+Text Label 8550 2700 0    50   ~ 0
+CONN_3P
+Text Label 8550 2600 0    50   ~ 0
+CONN_2P
+Text Label 8550 2500 0    50   ~ 0
+CONN_1P
 Text Label 8600 3300 0    50   ~ 0
 SRB2
 Text Label 9700 3300 2    50   ~ 0
 SRB1
-Text Label 9700 3200 2    50   ~ 0
-8N
-Text Label 9700 3100 2    50   ~ 0
-7N
-Text Label 9700 3000 2    50   ~ 0
-6N
-Text Label 9700 2900 2    50   ~ 0
-5N
-Text Label 9700 2800 2    50   ~ 0
-4N
-Text Label 9700 2700 2    50   ~ 0
-3N
-Text Label 9700 2600 2    50   ~ 0
-2N
-Text Label 9700 2500 2    50   ~ 0
-1N
+Text Label 9750 3200 2    50   ~ 0
+CONN_8N
+Text Label 9750 3100 2    50   ~ 0
+CONN_7N
+Text Label 9750 3000 2    50   ~ 0
+CONN_6N
+Text Label 9750 2900 2    50   ~ 0
+CONN_5N
+Text Label 9750 2800 2    50   ~ 0
+CONN_4N
+Text Label 9750 2700 2    50   ~ 0
+CONN_3N
+Text Label 9750 2600 2    50   ~ 0
+CONN_2N
+Text Label 9750 2500 2    50   ~ 0
+CONN_1N
 Text Label 9700 2400 2    50   ~ 0
 BIAS
 Text Notes 5000 950  2    197  ~ 0
@@ -1321,69 +1289,69 @@ Text Label 8100 5700 0    50   ~ 0
 SRB1
 Text Label 8100 4300 0    50   ~ 0
 BIAS
-Text Label 1050 1500 0    50   ~ 0
-1P
 Text Label 1050 1600 0    50   ~ 0
-1N
-Text Label 1050 1700 0    50   ~ 0
-2P
+CONN_1P
+Text Label 1050 1500 0    50   ~ 0
+CONN_1N
 Text Label 1050 1800 0    50   ~ 0
-2N
-Text Label 1050 3000 0    50   ~ 0
-3P
+CONN_2P
+Text Label 1050 1700 0    50   ~ 0
+CONN_2N
 Text Label 1050 3100 0    50   ~ 0
-3N
-Text Label 1050 3200 0    50   ~ 0
-4P
+CONN_3P
+Text Label 1050 3000 0    50   ~ 0
+CONN_3N
 Text Label 1050 3300 0    50   ~ 0
-4N
-Text Label 1050 4450 0    50   ~ 0
-5P
+CONN_4P
+Text Label 1050 3200 0    50   ~ 0
+CONN_4N
 Text Label 1050 4550 0    50   ~ 0
-5N
-Text Label 1050 4650 0    50   ~ 0
-6P
+CONN_5P
+Text Label 1050 4450 0    50   ~ 0
+CONN_5N
 Text Label 1050 4750 0    50   ~ 0
-6N
-Text Label 1050 5900 0    50   ~ 0
-7P
+CONN_6P
+Text Label 1050 4650 0    50   ~ 0
+CONN_6N
 Text Label 1050 6000 0    50   ~ 0
-7N
-Text Label 1050 6100 0    50   ~ 0
-8P
+CONN_7P
+Text Label 1050 5900 0    50   ~ 0
+CONN_7N
 Text Label 1050 6200 0    50   ~ 0
-8N
-Text HLabel 5250 1500 2    50   Input ~ 0
-1P
+CONN_8P
+Text Label 1050 6100 0    50   ~ 0
+CONN_8N
 Text HLabel 5250 1600 2    50   Input ~ 0
+1P
+Text HLabel 5250 1500 2    50   Input ~ 0
 1N
-Text HLabel 5250 1700 2    50   Input ~ 0
-2P
 Text HLabel 5250 1800 2    50   Input ~ 0
+2P
+Text HLabel 5250 1700 2    50   Input ~ 0
 2N
-Text HLabel 5250 3000 2    50   Input ~ 0
-3P
 Text HLabel 5250 3100 2    50   Input ~ 0
+3P
+Text HLabel 5250 3000 2    50   Input ~ 0
 3N
-Text HLabel 5250 3200 2    50   Input ~ 0
-4P
 Text HLabel 5250 3300 2    50   Input ~ 0
+4P
+Text HLabel 5250 3200 2    50   Input ~ 0
 4N
-Text HLabel 5250 4450 2    50   Input ~ 0
-5P
 Text HLabel 5250 4550 2    50   Input ~ 0
+5P
+Text HLabel 5250 4450 2    50   Input ~ 0
 5N
-Text HLabel 5250 4650 2    50   Input ~ 0
-6P
 Text HLabel 5250 4750 2    50   Input ~ 0
+6P
+Text HLabel 5250 4650 2    50   Input ~ 0
 6N
-Text HLabel 5250 5900 2    50   Input ~ 0
-7P
 Text HLabel 5250 6000 2    50   Input ~ 0
+7P
+Text HLabel 5250 5900 2    50   Input ~ 0
 7N
-Text HLabel 5250 6100 2    50   Input ~ 0
-8P
 Text HLabel 5250 6200 2    50   Input ~ 0
+8P
+Text HLabel 5250 6100 2    50   Input ~ 0
 8N
 $Comp
 L power:+2V5 #PWR?
@@ -1985,4 +1953,36 @@ Wire Wire Line
 Connection ~ 5200 1800
 Wire Wire Line
 	5200 1800 5250 1800
+Wire Wire Line
+	9400 2500 9750 2500
+Wire Wire Line
+	9400 2600 9750 2600
+Wire Wire Line
+	9400 2700 9750 2700
+Wire Wire Line
+	9400 2800 9750 2800
+Wire Wire Line
+	9400 2900 9750 2900
+Wire Wire Line
+	9400 3000 9750 3000
+Wire Wire Line
+	9400 3100 9750 3100
+Wire Wire Line
+	9400 3200 9750 3200
+Wire Wire Line
+	8550 3200 8900 3200
+Wire Wire Line
+	8550 3100 8900 3100
+Wire Wire Line
+	8550 3000 8900 3000
+Wire Wire Line
+	8550 2900 8900 2900
+Wire Wire Line
+	8550 2800 8900 2800
+Wire Wire Line
+	8550 2700 8900 2700
+Wire Wire Line
+	8550 2600 8900 2600
+Wire Wire Line
+	8550 2500 8900 2500
 $EndSCHEMATC

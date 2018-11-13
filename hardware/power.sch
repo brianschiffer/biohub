@@ -17,14 +17,14 @@ $EndDescr
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5BF30C72
-P 1150 2250
+P 850 2250
 AR Path="/5BF30C72" Ref="#PWR?"  Part="1" 
 AR Path="/5BE83956/5BF30C72" Ref="#PWR022"  Part="1" 
-F 0 "#PWR022" H 1150 2100 50  0001 C CNN
-F 1 "+3.3V" H 1165 2423 50  0000 C CNN
-F 2 "" H 1150 2250 50  0001 C CNN
-F 3 "" H 1150 2250 50  0001 C CNN
-	1    1150 2250
+F 0 "#PWR022" H 850 2100 50  0001 C CNN
+F 1 "+3.3V" H 865 2423 50  0000 C CNN
+F 2 "" H 850 2250 50  0001 C CNN
+F 3 "" H 850 2250 50  0001 C CNN
+	1    850  2250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -85,12 +85,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 2600 1150 2750
 Wire Wire Line
-	1150 2250 1150 2350
-Connection ~ 1150 2350
-Wire Wire Line
 	1150 2350 1150 2400
-Wire Wire Line
-	1150 2350 1750 2350
 $Comp
 L power:GND #PWR?
 U 1 1 5BF30C95
@@ -184,14 +179,14 @@ $EndComp
 $Comp
 L power:-2V5 #PWR?
 U 1 1 5BF4324D
-P 7200 3100
+P 7350 3050
 AR Path="/5BF4324D" Ref="#PWR?"  Part="1" 
 AR Path="/5BE83956/5BF4324D" Ref="#PWR039"  Part="1" 
-F 0 "#PWR039" H 7200 3200 50  0001 C CNN
-F 1 "-2V5" H 7215 3273 50  0000 C CNN
-F 2 "" H 7200 3100 50  0001 C CNN
-F 3 "" H 7200 3100 50  0001 C CNN
-	1    7200 3100
+F 0 "#PWR039" H 7350 3150 50  0001 C CNN
+F 1 "-2V5" H 7365 3223 50  0000 C CNN
+F 2 "" H 7350 3050 50  0001 C CNN
+F 3 "" H 7350 3050 50  0001 C CNN
+	1    7350 3050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -274,12 +269,6 @@ Wire Wire Line
 	7050 2450 7100 2450
 Wire Wire Line
 	7100 2450 7100 2500
-Wire Wire Line
-	7050 2250 7250 2250
-Wire Wire Line
-	7050 2350 7250 2350
-Wire Wire Line
-	7250 2350 7250 2250
 $Comp
 L biohub:ADP7142AUJZ-2.5-R7 U?
 U 1 1 5BF4327B
@@ -335,18 +324,18 @@ $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 5BF43290
-P 7200 3350
+P 7350 3350
 AR Path="/5BF43290" Ref="C?"  Part="1" 
 AR Path="/5BE83956/5BF43290" Ref="C18"  Part="1" 
-F 0 "C18" H 7292 3396 50  0000 L CNN
-F 1 "2.2u" H 7292 3305 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 7200 3350 50  0001 C CNN
-F 3 "" H 7200 3350 50  0001 C CNN
-F 4 "490-5801-1-ND" H 0   0   50  0001 C CNN "Digikey Part #"
-F 5 "	CAP CER 2.2UF 16V X7R 0805" H 0   0   50  0001 C CNN "Info"
-F 6 "Murata Electronics North America" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "GCJ21BR71C225KA13L" H 0   0   50  0001 C CNN "Manufacturer Part #"
-	1    7200 3350
+F 0 "C18" H 7442 3396 50  0000 L CNN
+F 1 "2.2u" H 7442 3305 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 7350 3350 50  0001 C CNN
+F 3 "" H 7350 3350 50  0001 C CNN
+F 4 "490-5801-1-ND" H 150 0   50  0001 C CNN "Digikey Part #"
+F 5 "	CAP CER 2.2UF 16V X7R 0805" H 150 0   50  0001 C CNN "Info"
+F 6 "Murata Electronics North America" H 150 0   50  0001 C CNN "Manufacturer"
+F 7 "GCJ21BR71C225KA13L" H 150 0   50  0001 C CNN "Manufacturer Part #"
+	1    7350 3350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -392,25 +381,10 @@ Connection ~ 5700 3250
 Wire Wire Line
 	5700 3250 5550 3250
 Wire Wire Line
-	7000 3250 7200 3250
-Wire Wire Line
-	7200 3100 7200 3250
-Connection ~ 7200 3250
-Wire Wire Line
-	7200 3450 7100 3450
-Wire Wire Line
 	7100 3450 7100 3600
 Connection ~ 7100 3450
 Wire Wire Line
 	7100 3450 7000 3450
-Wire Wire Line
-	7250 2250 7400 2250
-Wire Wire Line
-	7400 2250 7400 2150
-Connection ~ 7250 2250
-Wire Wire Line
-	7400 2250 7400 2300
-Connection ~ 7400 2250
 Wire Wire Line
 	7400 2500 7400 2550
 $Comp
@@ -566,7 +540,7 @@ $EndComp
 Wire Wire Line
 	3250 2150 3250 2350
 Wire Wire Line
-	2900 2350 3250 2350
+	2900 2350 2950 2350
 Connection ~ 3250 2350
 Wire Wire Line
 	3250 2350 3250 2400
@@ -584,4 +558,88 @@ Wire Wire Line
 Connection ~ 3000 2550
 Wire Wire Line
 	3000 2550 3000 2650
+$Comp
+L Device:R_Small R?
+U 1 1 5BEBED08
+P 3050 2350
+AR Path="/5BEBED08" Ref="R?"  Part="1" 
+AR Path="/5BE83AC7/5BEBED08" Ref="R?"  Part="1" 
+AR Path="/5BE83956/5BEBED08" Ref="R50"  Part="1" 
+F 0 "R50" V 3050 2350 50  0000 C CNN
+F 1 "0" V 3000 2250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402_NoSilk" H 3050 2350 50  0001 C CNN
+F 3 "" H 3050 2350 50  0001 C CNN
+F 4 "P0.0JCT-ND" H -3400 -2350 50  0001 C CNN "Digikey Part #"
+F 5 "RES SMD 0 OHM JUMPER 1/10W 0402" H -3400 -2350 50  0001 C CNN "Info"
+F 6 "Panasonic Electronic Components" H -3400 -2350 50  0001 C CNN "Manufacturer"
+F 7 "ERJ-2GE0R00X" H -3400 -2350 50  0001 C CNN "Manufacturer Part #"
+	1    3050 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3150 2350 3250 2350
+$Comp
+L Device:R_Small R?
+U 1 1 5BEBEF26
+P 7150 3250
+AR Path="/5BEBEF26" Ref="R?"  Part="1" 
+AR Path="/5BE83AC7/5BEBEF26" Ref="R?"  Part="1" 
+AR Path="/5BE83956/5BEBEF26" Ref="R51"  Part="1" 
+F 0 "R51" V 7150 3250 50  0000 C CNN
+F 1 "0" V 7100 3150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402_NoSilk" H 7150 3250 50  0001 C CNN
+F 3 "" H 7150 3250 50  0001 C CNN
+F 4 "P0.0JCT-ND" H 700 -1450 50  0001 C CNN "Digikey Part #"
+F 5 "RES SMD 0 OHM JUMPER 1/10W 0402" H 700 -1450 50  0001 C CNN "Info"
+F 6 "Panasonic Electronic Components" H 700 -1450 50  0001 C CNN "Manufacturer"
+F 7 "ERJ-2GE0R00X" H 700 -1450 50  0001 C CNN "Manufacturer Part #"
+	1    7150 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7000 3250 7050 3250
+Wire Wire Line
+	7250 3250 7350 3250
+Wire Wire Line
+	7350 3050 7350 3250
+Connection ~ 7350 3250
+Wire Wire Line
+	7100 3450 7350 3450
+Wire Wire Line
+	7050 2350 7050 2250
+Connection ~ 7050 2250
+Wire Wire Line
+	7050 2250 7100 2250
+Wire Wire Line
+	7400 2250 7400 2300
+Wire Wire Line
+	7400 2250 7400 2150
+Connection ~ 7400 2250
+Wire Wire Line
+	7300 2250 7400 2250
+$Comp
+L Device:R_Small R?
+U 1 1 5BEC3D32
+P 7200 2250
+AR Path="/5BEC3D32" Ref="R?"  Part="1" 
+AR Path="/5BE83AC7/5BEC3D32" Ref="R?"  Part="1" 
+AR Path="/5BE83956/5BEC3D32" Ref="R52"  Part="1" 
+F 0 "R52" V 7200 2250 50  0000 C CNN
+F 1 "0" V 7150 2150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402_NoSilk" H 7200 2250 50  0001 C CNN
+F 3 "" H 7200 2250 50  0001 C CNN
+F 4 "P0.0JCT-ND" H 750 -2450 50  0001 C CNN "Digikey Part #"
+F 5 "RES SMD 0 OHM JUMPER 1/10W 0402" H 750 -2450 50  0001 C CNN "Info"
+F 6 "Panasonic Electronic Components" H 750 -2450 50  0001 C CNN "Manufacturer"
+F 7 "ERJ-2GE0R00X" H 750 -2450 50  0001 C CNN "Manufacturer Part #"
+	1    7200 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	850  2250 850  2350
+Connection ~ 1150 2350
+Wire Wire Line
+	1150 2350 1750 2350
+Wire Wire Line
+	850  2350 1150 2350
 $EndSCHEMATC
