@@ -262,33 +262,29 @@ Power Isolation
 $Comp
 L power:VCOM #PWR?
 U 1 1 5BEF1DD9
-P 7900 4250
+P 7900 4150
 AR Path="/5BEF1DD9" Ref="#PWR?"  Part="1" 
 AR Path="/5BE83916/5BEF1DD9" Ref="#PWR06"  Part="1" 
-F 0 "#PWR06" H 7900 4100 50  0001 C CNN
-F 1 "VCOM" H 7917 4423 50  0000 C CNN
-F 2 "" H 7900 4250 50  0001 C CNN
-F 3 "" H 7900 4250 50  0001 C CNN
-	1    7900 4250
+F 0 "#PWR06" H 7900 4000 50  0001 C CNN
+F 1 "VCOM" H 7917 4323 50  0000 C CNN
+F 2 "" H 7900 4150 50  0001 C CNN
+F 3 "" H 7900 4150 50  0001 C CNN
+	1    7900 4150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7900 4300 7900 4250
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5BEF1DE1
-P 9500 4250
+P 9600 4200
 AR Path="/5BEF1DE1" Ref="#PWR?"  Part="1" 
 AR Path="/5BE83916/5BEF1DE1" Ref="#PWR013"  Part="1" 
-F 0 "#PWR013" H 9500 4100 50  0001 C CNN
-F 1 "+3.3V" H 9515 4423 50  0000 C CNN
-F 2 "" H 9500 4250 50  0001 C CNN
-F 3 "" H 9500 4250 50  0001 C CNN
-	1    9500 4250
+F 0 "#PWR013" H 9600 4050 50  0001 C CNN
+F 1 "+3.3V" H 9615 4373 50  0000 C CNN
+F 2 "" H 9600 4200 50  0001 C CNN
+F 3 "" H 9600 4200 50  0001 C CNN
+	1    9600 4200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9500 4300 9500 4250
 $Comp
 L power:GNDD #PWR?
 U 1 1 5BEF1DE9
@@ -310,68 +306,38 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5BEF1DF4
-P 9500 5400
+P 9600 5400
 AR Path="/5BEF1DF4" Ref="#PWR?"  Part="1" 
 AR Path="/5BE83916/5BEF1DF4" Ref="#PWR014"  Part="1" 
-F 0 "#PWR014" H 9500 5150 50  0001 C CNN
-F 1 "GND" H 9505 5227 50  0000 C CNN
-F 2 "" H 9500 5400 50  0001 C CNN
-F 3 "" H 9500 5400 50  0001 C CNN
-	1    9500 5400
+F 0 "#PWR014" H 9600 5150 50  0001 C CNN
+F 1 "GND" H 9605 5227 50  0000 C CNN
+F 2 "" H 9600 5400 50  0001 C CNN
+F 3 "" H 9600 5400 50  0001 C CNN
+	1    9600 5400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5BEF1DFA
-P 7900 4400
-AR Path="/5BEF1DFA" Ref="C?"  Part="1" 
-AR Path="/5BE83916/5BEF1DFA" Ref="C5"  Part="1" 
-F 0 "C5" H 7992 4446 50  0000 L CNN
-F 1 "0.1u" H 7992 4355 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7900 4400 50  0001 C CNN
-F 3 "" H 7900 4400 50  0001 C CNN
-F 4 "490-5796-1-ND" H 5850 -850 50  0001 C CNN "Digikey Part #"
-F 5 "490-5796-1-ND" H 5850 -850 50  0001 C CNN "Field4"
-F 6 "CAP CER 0.1UF 16V X7R 0603" H 5850 -850 50  0001 C CNN "Info"
-F 7 "Murata Electronics North America" H 5850 -850 50  0001 C CNN "Manufacturer"
-F 8 "GCJ188R71C104KA01D" H 5850 -850 50  0001 C CNN "Manufacturer Part #"
-	1    7900 4400
-	1    0    0    -1  
-$EndComp
-Connection ~ 7900 4300
 $Comp
 L Device:C_Small C?
 U 1 1 5BEF1E02
-P 9500 4400
+P 9600 4350
 AR Path="/5BEF1E02" Ref="C?"  Part="1" 
 AR Path="/5BE83916/5BEF1E02" Ref="C8"  Part="1" 
-F 0 "C8" H 9592 4446 50  0000 L CNN
-F 1 "0.1u" H 9592 4355 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 9500 4400 50  0001 C CNN
-F 3 "" H 9500 4400 50  0001 C CNN
-F 4 "490-5796-1-ND" H 5850 -850 50  0001 C CNN "Digikey Part #"
-F 5 "490-5796-1-ND" H 5850 -850 50  0001 C CNN "Field4"
-F 6 "CAP CER 0.1UF 16V X7R 0603" H 5850 -850 50  0001 C CNN "Info"
-F 7 "Murata Electronics North America" H 5850 -850 50  0001 C CNN "Manufacturer"
-F 8 "GCJ188R71C104KA01D" H 5850 -850 50  0001 C CNN "Manufacturer Part #"
-	1    9500 4400
+F 0 "C8" H 9692 4396 50  0000 L CNN
+F 1 "0.1u" H 9692 4305 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 9600 4350 50  0001 C CNN
+F 3 "" H 9600 4350 50  0001 C CNN
+F 4 "490-5796-1-ND" H 5950 -900 50  0001 C CNN "Digikey Part #"
+F 5 "490-5796-1-ND" H 5950 -900 50  0001 C CNN "Field4"
+F 6 "CAP CER 0.1UF 16V X7R 0603" H 5950 -900 50  0001 C CNN "Info"
+F 7 "Murata Electronics North America" H 5950 -900 50  0001 C CNN "Manufacturer"
+F 8 "GCJ188R71C104KA01D" H 5950 -900 50  0001 C CNN "Manufacturer Part #"
+	1    9600 4350
 	1    0    0    -1  
 $EndComp
-Connection ~ 9500 4300
-Wire Wire Line
-	7900 4500 7900 5200
 Connection ~ 7900 5200
-Wire Wire Line
-	9500 4500 9500 5200
-Connection ~ 9500 5200
-Wire Wire Line
-	9500 5200 9500 5300
-Connection ~ 9500 5300
-Wire Wire Line
-	9500 5300 9500 5400
-Text Label 7300 4600 0    50   ~ 0
-USB_SPI_MOSI
 Text Label 7300 4500 0    50   ~ 0
+USB_SPI_MOSI
+Text Label 7300 4600 0    50   ~ 0
 USB_SPI_CLK
 Text Label 7300 4700 0    50   ~ 0
 USB_SPI_MISO
@@ -443,23 +409,6 @@ F 7 "GCJ188R72A103KA01D" H 100 2400 50  0001 C CNN "Manufacturer Part #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
-U 1 1 5BF11FAD
-P 2650 5100
-AR Path="/5BF11FAD" Ref="C?"  Part="1" 
-AR Path="/5BE83916/5BF11FAD" Ref="C4"  Part="1" 
-F 0 "C4" H 2742 5146 50  0000 L CNN
-F 1 "47p" H 2742 5055 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 2650 5100 50  0001 C CNN
-F 3 "" H 2650 5100 50  0001 C CNN
-F 4 "490-16408-1-ND" H 100 2400 50  0001 C CNN "Digikey Part #"
-F 5 "CAP CER 47PF 100V C0G/NP0 0603" H 100 2400 50  0001 C CNN "Info"
-F 6 "Murata Electronics North America" H 100 2400 50  0001 C CNN "Manufacturer"
-F 7 "GCM1885C2A470FA16D" H 100 2400 50  0001 C CNN "Manufacturer Part #"
-	1    2650 5100
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GNDD #PWR?
 U 1 1 5BF11FB4
 P 2400 5650
@@ -474,19 +423,6 @@ F 3 "" H 2400 5650 50  0001 C CNN
 $EndComp
 $Comp
 L power:GNDD #PWR?
-U 1 1 5BF11FBA
-P 2850 5300
-AR Path="/5BF11FBA" Ref="#PWR?"  Part="1" 
-AR Path="/5BE83916/5BF11FBA" Ref="#PWR08"  Part="1" 
-F 0 "#PWR08" H 2850 5050 50  0001 C CNN
-F 1 "GNDD" H 2854 5145 50  0000 C CNN
-F 2 "" H 2850 5300 50  0001 C CNN
-F 3 "" H 2850 5300 50  0001 C CNN
-	1    2850 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR?
 U 1 1 5BF11FC0
 P 3400 5750
 AR Path="/5BF11FC0" Ref="#PWR?"  Part="1" 
@@ -496,41 +432,6 @@ F 1 "GNDD" H 3404 5595 50  0000 C CNN
 F 2 "" H 3400 5750 50  0001 C CNN
 F 3 "" H 3400 5750 50  0001 C CNN
 	1    3400 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5BF11FC6
-P 3400 5550
-AR Path="/5BF11FC6" Ref="C?"  Part="1" 
-AR Path="/5BE83916/5BF11FC6" Ref="C7"  Part="1" 
-F 0 "C7" H 3492 5596 50  0000 L CNN
-F 1 "0.1u" H 3492 5505 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3400 5550 50  0001 C CNN
-F 3 "" H 3400 5550 50  0001 C CNN
-F 4 "490-5796-1-ND" H 100 2400 50  0001 C CNN "Digikey Part #"
-F 5 "490-5796-1-ND" H 100 2400 50  0001 C CNN "Field4"
-F 6 "CAP CER 0.1UF 16V X7R 0603" H 100 2400 50  0001 C CNN "Info"
-F 7 "Murata Electronics North America" H 100 2400 50  0001 C CNN "Manufacturer"
-F 8 "GCJ188R71C104KA01D" H 100 2400 50  0001 C CNN "Manufacturer Part #"
-	1    3400 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5BF11FCD
-P 3000 5100
-AR Path="/5BF11FCD" Ref="C?"  Part="1" 
-AR Path="/5BE83916/5BF11FCD" Ref="C6"  Part="1" 
-F 0 "C6" H 3092 5146 50  0000 L CNN
-F 1 "47p" H 3092 5055 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3000 5100 50  0001 C CNN
-F 3 "" H 3000 5100 50  0001 C CNN
-F 4 "490-16408-1-ND" H 100 2400 50  0001 C CNN "Digikey Part #"
-F 5 "CAP CER 47PF 100V C0G/NP0 0603" H 100 2400 50  0001 C CNN "Info"
-F 6 "Murata Electronics North America" H 100 2400 50  0001 C CNN "Manufacturer"
-F 7 "GCM1885C2A470FA16D" H 100 2400 50  0001 C CNN "Manufacturer Part #"
-	1    3000 5100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -585,40 +486,6 @@ F 7 "ERJ-2RKF1002X" H 100 2400 50  0001 C CNN "Manufacturer Part #"
 	1    2100 5500
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5BF11FE9
-P 3200 4950
-AR Path="/5BF11FE9" Ref="R?"  Part="1" 
-AR Path="/5BE83916/5BF11FE9" Ref="R3"  Part="1" 
-F 0 "R3" V 3200 4950 50  0000 C CNN
-F 1 "27" V 3250 5100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402_NoSilk" H 3200 4950 50  0001 C CNN
-F 3 "" H 3200 4950 50  0001 C CNN
-F 4 "P27DDCT-ND" H 100 2400 50  0001 C CNN "Digikey Part #"
-F 5 "RES SMD 27 OHM 0.5% 1/16W 0402" H 100 2400 50  0001 C CNN "Info"
-F 6 "	Panasonic Electronic Components" H 100 2400 50  0001 C CNN "Manufacturer"
-F 7 "	ERA-2AKD270X" H 100 2400 50  0001 C CNN "Manufacturer Part #"
-	1    3200 4950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5BF11FF0
-P 3200 4850
-AR Path="/5BF11FF0" Ref="R?"  Part="1" 
-AR Path="/5BE83916/5BF11FF0" Ref="R2"  Part="1" 
-F 0 "R2" V 3200 4850 50  0000 C CNN
-F 1 "27" V 3150 5000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402_NoSilk" H 3200 4850 50  0001 C CNN
-F 3 "" H 3200 4850 50  0001 C CNN
-F 4 "P27DDCT-ND" H 100 2400 50  0001 C CNN "Digikey Part #"
-F 5 "RES SMD 27 OHM 0.5% 1/16W 0402" H 100 2400 50  0001 C CNN "Info"
-F 6 "	Panasonic Electronic Components" H 100 2400 50  0001 C CNN "Manufacturer"
-F 7 "	ERA-2AKD270X" H 100 2400 50  0001 C CNN "Manufacturer Part #"
-	1    3200 4850
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2100 5350 2100 5400
 Wire Wire Line
@@ -657,45 +524,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 4350 2400 4250
 Wire Wire Line
-	2650 5200 2650 5250
-Wire Wire Line
-	2650 5250 2850 5250
-Wire Wire Line
-	3000 5250 3000 5200
-Wire Wire Line
-	2850 5250 2850 5300
-Connection ~ 2850 5250
-Wire Wire Line
-	2850 5250 3000 5250
-Wire Wire Line
-	2650 5000 2650 4950
-Wire Wire Line
-	2100 4950 2650 4950
-Wire Wire Line
-	3000 4850 3000 5000
-Wire Wire Line
-	2100 4850 3000 4850
-Wire Wire Line
-	3100 4850 3000 4850
-Connection ~ 3000 4850
-Wire Wire Line
-	3100 4950 2650 4950
-Connection ~ 2650 4950
-Wire Wire Line
 	3400 5750 3400 5650
-$Comp
-L power:VBUS #PWR?
-U 1 1 5BF12022
-P 3600 4050
-AR Path="/5BF12022" Ref="#PWR?"  Part="1" 
-AR Path="/5BE83916/5BF12022" Ref="#PWR012"  Part="1" 
-F 0 "#PWR012" H 3600 3900 50  0001 C CNN
-F 1 "VBUS" H 3615 4223 50  0000 C CNN
-F 2 "" H 3600 4050 50  0001 C CNN
-F 3 "" H 3600 4050 50  0001 C CNN
-	1    3600 4050
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:VBUS #PWR?
 U 1 1 5BF1203E
@@ -765,9 +594,9 @@ F 3 "" H 3400 4000 50  0001 C CNN
 $EndComp
 Text Notes 4300 3700 2    197  ~ 0
 USB <-> SPI
-Text HLabel 9950 4500 2    50   Input ~ 0
-SCLK
 Text HLabel 9950 4600 2    50   Input ~ 0
+SCLK
+Text HLabel 9950 4500 2    50   Input ~ 0
 MOSI
 Text HLabel 9950 4700 2    50   Input ~ 0
 MISO
@@ -829,12 +658,6 @@ F 7 "MCP2210T-I/SS" H 100 2400 50  0001 C CNN "Manufacturer Part #"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3300 4850 3600 4850
-Wire Wire Line
-	3300 4950 3600 4950
-Wire Wire Line
-	3600 4200 3600 4050
-Wire Wire Line
 	3600 4350 3400 4350
 Wire Wire Line
 	3400 4350 3400 4550
@@ -860,7 +683,6 @@ Wire Wire Line
 	3400 4550 3400 5450
 Wire Wire Line
 	3600 5650 3400 5650
-Connection ~ 3400 5650
 Wire Wire Line
 	5200 4250 5300 4250
 Wire Wire Line
@@ -926,20 +748,9 @@ F 7 "ADUM1412BRWZ" H 5850 -850 50  0001 C CNN "Manufacturer Part #"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7900 4300 8100 4300
-Wire Wire Line
 	7900 5200 8100 5200
 Wire Wire Line
 	7900 5300 8100 5300
-Wire Wire Line
-	9300 5300 9500 5300
-Wire Wire Line
-	9300 5200 9500 5200
-Wire Wire Line
-	8100 4500 7900 4500
-Connection ~ 7900 4500
-Wire Wire Line
-	7900 4500 7300 4500
 Wire Wire Line
 	8100 4600 7300 4600
 Wire Wire Line
@@ -949,11 +760,6 @@ Wire Wire Line
 Text Label 7300 4800 0    50   ~ 0
 USB_SPI_DATA_READY
 Wire Wire Line
-	9300 4500 9500 4500
-Connection ~ 9500 4500
-Wire Wire Line
-	9500 4500 9950 4500
-Wire Wire Line
 	9300 4600 9950 4600
 Wire Wire Line
 	9300 4700 9950 4700
@@ -961,8 +767,6 @@ Wire Wire Line
 	9300 4800 9950 4800
 Text HLabel 9950 4800 2    50   Input ~ 0
 DRDY
-Wire Wire Line
-	9300 4300 9500 4300
 Connection ~ 3400 4350
 $Comp
 L biohub:MCP1603T-330I U14
@@ -1075,7 +879,7 @@ F 7 "GCJ21BR71C475KA01L" H 3250 450 50  0001 C CNN "Manufacturer Part #"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3400 4000 3400 4350
+	3400 4000 3400 4200
 $Comp
 L power:VCOM #PWR?
 U 1 1 5BEFD001
@@ -1189,4 +993,138 @@ Wire Wire Line
 	9950 2250 10000 2250
 Wire Wire Line
 	10000 2250 10000 2100
+Wire Wire Line
+	7300 4500 7900 4500
+$Comp
+L Device:C_Small C?
+U 1 1 5BEF1DFA
+P 7900 4300
+AR Path="/5BEF1DFA" Ref="C?"  Part="1" 
+AR Path="/5BE83916/5BEF1DFA" Ref="C5"  Part="1" 
+F 0 "C5" H 7992 4346 50  0000 L CNN
+F 1 "0.1u" H 7992 4255 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7900 4300 50  0001 C CNN
+F 3 "" H 7900 4300 50  0001 C CNN
+F 4 "490-5796-1-ND" H 5850 -950 50  0001 C CNN "Digikey Part #"
+F 5 "490-5796-1-ND" H 5850 -950 50  0001 C CNN "Field4"
+F 6 "CAP CER 0.1UF 16V X7R 0603" H 5850 -950 50  0001 C CNN "Info"
+F 7 "Murata Electronics North America" H 5850 -950 50  0001 C CNN "Manufacturer"
+F 8 "GCJ188R71C104KA01D" H 5850 -950 50  0001 C CNN "Manufacturer Part #"
+	1    7900 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 4150 7900 4200
+Wire Wire Line
+	7900 4150 8100 4150
+Wire Wire Line
+	8100 4150 8100 4300
+Connection ~ 7900 4150
+Wire Wire Line
+	7900 4500 8100 4500
+Wire Wire Line
+	7900 4400 7900 5200
+Wire Wire Line
+	9600 4200 9600 4250
+Wire Wire Line
+	9300 4300 9400 4300
+Wire Wire Line
+	9400 4300 9400 4250
+Wire Wire Line
+	9400 4250 9600 4250
+Connection ~ 9600 4250
+Wire Wire Line
+	9600 4450 9600 5200
+Wire Wire Line
+	9300 5300 9600 5300
+Wire Wire Line
+	9300 4500 9950 4500
+Wire Wire Line
+	9300 5200 9600 5200
+Connection ~ 9600 5200
+Wire Wire Line
+	9600 5200 9600 5300
+Wire Wire Line
+	9600 5300 9600 5400
+Connection ~ 9600 5300
+Wire Wire Line
+	3300 4950 3600 4950
+Wire Wire Line
+	3300 4850 3600 4850
+$Comp
+L Device:R_Small R?
+U 1 1 5BF11FF0
+P 3200 4850
+AR Path="/5BF11FF0" Ref="R?"  Part="1" 
+AR Path="/5BE83916/5BF11FF0" Ref="R2"  Part="1" 
+F 0 "R2" V 3200 4850 50  0000 C CNN
+F 1 "27" V 3150 5000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402_NoSilk" H 3200 4850 50  0001 C CNN
+F 3 "" H 3200 4850 50  0001 C CNN
+F 4 "P27DDCT-ND" H 100 2400 50  0001 C CNN "Digikey Part #"
+F 5 "RES SMD 27 OHM 0.5% 1/16W 0402" H 100 2400 50  0001 C CNN "Info"
+F 6 "	Panasonic Electronic Components" H 100 2400 50  0001 C CNN "Manufacturer"
+F 7 "	ERA-2AKD270X" H 100 2400 50  0001 C CNN "Manufacturer Part #"
+	1    3200 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5BF11FE9
+P 3200 4950
+AR Path="/5BF11FE9" Ref="R?"  Part="1" 
+AR Path="/5BE83916/5BF11FE9" Ref="R3"  Part="1" 
+F 0 "R3" V 3200 4950 50  0000 C CNN
+F 1 "27" V 3250 5100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402_NoSilk" H 3200 4950 50  0001 C CNN
+F 3 "" H 3200 4950 50  0001 C CNN
+F 4 "P27DDCT-ND" H 100 2400 50  0001 C CNN "Digikey Part #"
+F 5 "RES SMD 27 OHM 0.5% 1/16W 0402" H 100 2400 50  0001 C CNN "Info"
+F 6 "	Panasonic Electronic Components" H 100 2400 50  0001 C CNN "Manufacturer"
+F 7 "	ERA-2AKD270X" H 100 2400 50  0001 C CNN "Manufacturer Part #"
+	1    3200 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 4200 3400 4200
+Connection ~ 3400 4200
+Wire Wire Line
+	3400 4200 3400 4350
+$Comp
+L Device:C_Small C7
+U 1 1 5BFC2966
+P 3400 5550
+F 0 "C7" H 3492 5596 50  0000 L CNN
+F 1 "0.22u" H 3492 5505 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3400 5550 50  0001 C CNN
+F 3 "" H 3400 5550 50  0001 C CNN
+F 4 "490-5804-1-ND" H -5800 3150 50  0001 C CNN "Digikey Part #"
+F 5 "CAP CER 0.22UF 50V X7R 0805" H -5800 3150 50  0001 C CNN "Info"
+F 6 "Murata Electronics North America" H -5800 3150 50  0001 C CNN "Manufacturer"
+F 7 "GCJ21BR71H224KA01L" H -5800 3150 50  0001 C CNN "Manufacturer Part #"
+	1    3400 5550
+	1    0    0    -1  
+$EndComp
+Connection ~ 3400 5650
+Wire Wire Line
+	2100 4950 3100 4950
+Wire Wire Line
+	2100 4850 3100 4850
+Text Label 4250 1800 0    50   ~ 0
+LX
+Text Label 4550 1800 0    50   ~ 0
+Vfb
+Text Label 2150 4750 0    50   ~ 0
+VUSB
+Text Label 2100 5350 0    50   ~ 0
+SHLD
+Text Label 9100 1950 0    50   ~ 0
+ISO
+Wire Wire Line
+	9050 1950 9100 1950
+Connection ~ 9050 1950
+Text Label 9200 2250 0    50   ~ 0
+ISO_VDD_1
+Text Label 9600 2250 0    50   ~ 0
+ISO_VDD_2
 $EndSCHEMATC

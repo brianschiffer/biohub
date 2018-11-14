@@ -52,14 +52,6 @@ Wire Wire Line
 	8900 2200 8600 2200
 Wire Wire Line
 	9400 2200 9700 2200
-Wire Wire Line
-	8900 2400 8600 2400
-Wire Wire Line
-	8900 3300 8600 3300
-Wire Wire Line
-	9400 2400 9700 2400
-Wire Wire Line
-	9400 3300 9700 3300
 $Comp
 L power:+2V5 #PWR?
 U 1 1 5BF54EA2
@@ -154,7 +146,7 @@ Wire Wire Line
 	8450 2300 8450 2350
 Wire Wire Line
 	8450 2300 8900 2300
-Text Label 8600 2400 0    50   ~ 0
+Text Label 8550 3300 0    50   ~ 0
 BIAS
 Text Label 8550 3200 0    50   ~ 0
 CONN_8P
@@ -172,9 +164,9 @@ Text Label 8550 2600 0    50   ~ 0
 CONN_2P
 Text Label 8550 2500 0    50   ~ 0
 CONN_1P
-Text Label 8600 3300 0    50   ~ 0
+Text Label 9750 2400 2    50   ~ 0
 SRB2
-Text Label 9700 3300 2    50   ~ 0
+Text Label 8550 2400 0    50   ~ 0
 SRB1
 Text Label 9750 3200 2    50   ~ 0
 CONN_8N
@@ -192,7 +184,7 @@ Text Label 9750 2600 2    50   ~ 0
 CONN_2N
 Text Label 9750 2500 2    50   ~ 0
 CONN_1N
-Text Label 9700 2400 2    50   ~ 0
+Text Label 9750 3300 2    50   ~ 0
 BIAS
 Text Notes 5000 950  2    197  ~ 0
 Buffer & ESD Protection
@@ -407,19 +399,6 @@ F 1 "+2V5" H 2615 1473 50  0000 C CNN
 F 2 "" H 2600 1300 50  0001 C CNN
 F 3 "" H 2600 1300 50  0001 C CNN
 	1    2600 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+2V5 #PWR?
-U 1 1 5BF96ECD
-P 3800 1300
-AR Path="/5BF96ECD" Ref="#PWR?"  Part="1" 
-AR Path="/5BE83BFD/5BF96ECD" Ref="#PWR081"  Part="1" 
-F 0 "#PWR081" H 3800 1150 50  0001 C CNN
-F 1 "+2V5" H 3815 1473 50  0000 C CNN
-F 2 "" H 3800 1300 50  0001 C CNN
-F 3 "" H 3800 1300 50  0001 C CNN
-	1    3800 1300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -660,19 +639,6 @@ F 3 "" H 2600 2800 50  0001 C CNN
 	1    2600 2800
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+2V5 #PWR?
-U 1 1 5BFA5171
-P 3800 2800
-AR Path="/5BFA5171" Ref="#PWR?"  Part="1" 
-AR Path="/5BE83BFD/5BFA5171" Ref="#PWR082"  Part="1" 
-F 0 "#PWR082" H 3800 2650 50  0001 C CNN
-F 1 "+2V5" H 3815 2973 50  0000 C CNN
-F 2 "" H 3800 2800 50  0001 C CNN
-F 3 "" H 3800 2800 50  0001 C CNN
-	1    3800 2800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2650 2900 2600 2900
 Wire Wire Line
@@ -905,19 +871,6 @@ F 1 "+2V5" H 2615 4423 50  0000 C CNN
 F 2 "" H 2600 4250 50  0001 C CNN
 F 3 "" H 2600 4250 50  0001 C CNN
 	1    2600 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+2V5 #PWR?
-U 1 1 5BFA9F34
-P 3800 4250
-AR Path="/5BFA9F34" Ref="#PWR?"  Part="1" 
-AR Path="/5BE83BFD/5BFA9F34" Ref="#PWR083"  Part="1" 
-F 0 "#PWR083" H 3800 4100 50  0001 C CNN
-F 1 "+2V5" H 3815 4423 50  0000 C CNN
-F 2 "" H 3800 4250 50  0001 C CNN
-F 3 "" H 3800 4250 50  0001 C CNN
-	1    3800 4250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1158,19 +1111,6 @@ F 3 "" H 2600 5700 50  0001 C CNN
 	1    2600 5700
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+2V5 #PWR?
-U 1 1 5BFB2A8A
-P 3800 5700
-AR Path="/5BFB2A8A" Ref="#PWR?"  Part="1" 
-AR Path="/5BE83BFD/5BFB2A8A" Ref="#PWR084"  Part="1" 
-F 0 "#PWR084" H 3800 5550 50  0001 C CNN
-F 1 "+2V5" H 3815 5873 50  0000 C CNN
-F 2 "" H 3800 5700 50  0001 C CNN
-F 3 "" H 3800 5700 50  0001 C CNN
-	1    3800 5700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2650 5800 2600 5800
 Wire Wire Line
@@ -1251,12 +1191,6 @@ Wire Wire Line
 	8400 4300 8100 4300
 Wire Wire Line
 	8400 4400 8100 4400
-Wire Wire Line
-	8400 5400 8100 5400
-Wire Wire Line
-	8400 5500 8100 5500
-Wire Wire Line
-	8400 5700 8100 5700
 $Comp
 L power:+2V5 #PWR?
 U 1 1 5C04F978
@@ -1283,11 +1217,11 @@ F 3 "" H 8050 5400 50  0001 C CNN
 	1    8050 5400
 	1    0    0    -1  
 $EndComp
-Text Label 8100 5400 0    50   ~ 0
+Text Label 8100 4400 0    50   ~ 0
 SRB2
-Text Label 8100 5700 0    50   ~ 0
-SRB1
 Text Label 8100 4300 0    50   ~ 0
+SRB1
+Text Label 8050 5600 0    50   ~ 0
 BIAS
 Text Label 1050 1600 0    50   ~ 0
 CONN_1P
@@ -1936,8 +1870,6 @@ Connection ~ 5000 2250
 Wire Wire Line
 	7600 1700 7800 1700
 Wire Wire Line
-	8050 5600 8050 5400
-Wire Wire Line
 	8050 5600 8400 5600
 Wire Wire Line
 	4800 4650 5250 4650
@@ -1985,4 +1917,73 @@ Wire Wire Line
 	8550 2600 8900 2600
 Wire Wire Line
 	8550 2500 8900 2500
+Wire Wire Line
+	8550 3300 8900 3300
+Wire Wire Line
+	9400 3300 9750 3300
+Wire Wire Line
+	4300 6300 4300 6700
+Connection ~ 4300 6700
+$Comp
+L power:-2V5 #PWR?
+U 1 1 5BF40FE3
+P 3800 1300
+AR Path="/5BF40FE3" Ref="#PWR?"  Part="1" 
+AR Path="/5BE83BFD/5BF40FE3" Ref="#PWR0134"  Part="1" 
+F 0 "#PWR0134" H 3800 1400 50  0001 C CNN
+F 1 "-2V5" H 3815 1473 50  0000 C CNN
+F 2 "" H 3800 1300 50  0001 C CNN
+F 3 "" H 3800 1300 50  0001 C CNN
+	1    3800 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-2V5 #PWR?
+U 1 1 5BF4105C
+P 3800 2800
+AR Path="/5BF4105C" Ref="#PWR?"  Part="1" 
+AR Path="/5BE83BFD/5BF4105C" Ref="#PWR0135"  Part="1" 
+F 0 "#PWR0135" H 3800 2900 50  0001 C CNN
+F 1 "-2V5" H 3815 2973 50  0000 C CNN
+F 2 "" H 3800 2800 50  0001 C CNN
+F 3 "" H 3800 2800 50  0001 C CNN
+	1    3800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-2V5 #PWR?
+U 1 1 5BF410D5
+P 3800 4250
+AR Path="/5BF410D5" Ref="#PWR?"  Part="1" 
+AR Path="/5BE83BFD/5BF410D5" Ref="#PWR0136"  Part="1" 
+F 0 "#PWR0136" H 3800 4350 50  0001 C CNN
+F 1 "-2V5" H 3815 4423 50  0000 C CNN
+F 2 "" H 3800 4250 50  0001 C CNN
+F 3 "" H 3800 4250 50  0001 C CNN
+	1    3800 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-2V5 #PWR?
+U 1 1 5BF4114E
+P 3800 5700
+AR Path="/5BF4114E" Ref="#PWR?"  Part="1" 
+AR Path="/5BE83BFD/5BF4114E" Ref="#PWR0137"  Part="1" 
+F 0 "#PWR0137" H 3800 5800 50  0001 C CNN
+F 1 "-2V5" H 3815 5873 50  0000 C CNN
+F 2 "" H 3800 5700 50  0001 C CNN
+F 3 "" H 3800 5700 50  0001 C CNN
+	1    3800 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 2400 9750 2400
+Wire Wire Line
+	8550 2400 8900 2400
+Wire Wire Line
+	8050 5500 8400 5500
+Wire Wire Line
+	8050 5400 8400 5400
+Wire Wire Line
+	8050 5700 8400 5700
 $EndSCHEMATC
