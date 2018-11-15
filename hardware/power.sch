@@ -119,14 +119,14 @@ $EndComp
 $Comp
 L power:-3V3 #PWR?
 U 1 1 5BF30CA5
-P 3250 2150
+P 3650 2150
 AR Path="/5BF30CA5" Ref="#PWR?"  Part="1" 
 AR Path="/5BE83956/5BF30CA5" Ref="#PWR031"  Part="1" 
-F 0 "#PWR031" H 3250 2250 50  0001 C CNN
-F 1 "-3V3" H 3265 2323 50  0000 C CNN
-F 2 "" H 3250 2150 50  0001 C CNN
-F 3 "" H 3250 2150 50  0001 C CNN
-	1    3250 2150
+F 0 "#PWR031" H 3650 2250 50  0001 C CNN
+F 1 "-3V3" H 3665 2323 50  0000 C CNN
+F 2 "" H 3650 2150 50  0001 C CNN
+F 3 "" H 3650 2150 50  0001 C CNN
+	1    3650 2150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -166,27 +166,27 @@ Analog Power
 $Comp
 L power:+2V5 #PWR?
 U 1 1 5BF43247
-P 7400 2150
+P 7800 2150
 AR Path="/5BF43247" Ref="#PWR?"  Part="1" 
 AR Path="/5BE83956/5BF43247" Ref="#PWR040"  Part="1" 
-F 0 "#PWR040" H 7400 2000 50  0001 C CNN
-F 1 "+2V5" H 7415 2323 50  0000 C CNN
-F 2 "" H 7400 2150 50  0001 C CNN
-F 3 "" H 7400 2150 50  0001 C CNN
-	1    7400 2150
+F 0 "#PWR040" H 7800 2000 50  0001 C CNN
+F 1 "+2V5" H 7815 2323 50  0000 C CNN
+F 2 "" H 7800 2150 50  0001 C CNN
+F 3 "" H 7800 2150 50  0001 C CNN
+	1    7800 2150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:-2V5 #PWR?
 U 1 1 5BF4324D
-P 7350 3050
+P 7850 3000
 AR Path="/5BF4324D" Ref="#PWR?"  Part="1" 
 AR Path="/5BE83956/5BF4324D" Ref="#PWR039"  Part="1" 
-F 0 "#PWR039" H 7350 3150 50  0001 C CNN
-F 1 "-2V5" H 7365 3223 50  0000 C CNN
-F 2 "" H 7350 3050 50  0001 C CNN
-F 3 "" H 7350 3050 50  0001 C CNN
-	1    7350 3050
+F 0 "#PWR039" H 7850 3100 50  0001 C CNN
+F 1 "-2V5" H 7865 3173 50  0000 C CNN
+F 2 "" H 7850 3000 50  0001 C CNN
+F 3 "" H 7850 3000 50  0001 C CNN
+	1    7850 3000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -538,11 +538,6 @@ F 8 "ADM8660ARZ" H 0   0   50  0001 C CNN "Manufacturer Part #"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3250 2150 3250 2350
-Wire Wire Line
-	2900 2350 2950 2350
-Connection ~ 3250 2350
-Wire Wire Line
 	3250 2350 3250 2400
 Wire Wire Line
 	2900 2650 3000 2650
@@ -561,47 +556,39 @@ Wire Wire Line
 $Comp
 L Device:R_Small R?
 U 1 1 5BEBED08
-P 3050 2350
+P 3450 2350
 AR Path="/5BEBED08" Ref="R?"  Part="1" 
 AR Path="/5BE83AC7/5BEBED08" Ref="R?"  Part="1" 
 AR Path="/5BE83956/5BEBED08" Ref="R50"  Part="1" 
-F 0 "R50" V 3050 2350 50  0000 C CNN
-F 1 "0" V 3000 2250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402_NoSilk" H 3050 2350 50  0001 C CNN
-F 3 "" H 3050 2350 50  0001 C CNN
-F 4 "P0.0JCT-ND" H -3400 -2350 50  0001 C CNN "Digikey Part #"
-F 5 "RES SMD 0 OHM JUMPER 1/10W 0402" H -3400 -2350 50  0001 C CNN "Info"
-F 6 "Panasonic Electronic Components" H -3400 -2350 50  0001 C CNN "Manufacturer"
-F 7 "ERJ-2GE0R00X" H -3400 -2350 50  0001 C CNN "Manufacturer Part #"
-	1    3050 2350
+F 0 "R50" V 3450 2350 50  0000 C CNN
+F 1 "0" V 3400 2250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402_NoSilk" H 3450 2350 50  0001 C CNN
+F 3 "" H 3450 2350 50  0001 C CNN
+F 4 "P0.0JCT-ND" H -3000 -2350 50  0001 C CNN "Digikey Part #"
+F 5 "RES SMD 0 OHM JUMPER 1/10W 0402" H -3000 -2350 50  0001 C CNN "Info"
+F 6 "Panasonic Electronic Components" H -3000 -2350 50  0001 C CNN "Manufacturer"
+F 7 "ERJ-2GE0R00X" H -3000 -2350 50  0001 C CNN "Manufacturer Part #"
+	1    3450 2350
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3150 2350 3250 2350
 $Comp
 L Device:R_Small R?
 U 1 1 5BEBEF26
-P 7150 3250
+P 7600 3250
 AR Path="/5BEBEF26" Ref="R?"  Part="1" 
 AR Path="/5BE83AC7/5BEBEF26" Ref="R?"  Part="1" 
 AR Path="/5BE83956/5BEBEF26" Ref="R51"  Part="1" 
-F 0 "R51" V 7150 3250 50  0000 C CNN
-F 1 "0" V 7100 3150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402_NoSilk" H 7150 3250 50  0001 C CNN
-F 3 "" H 7150 3250 50  0001 C CNN
-F 4 "P0.0JCT-ND" H 700 -1450 50  0001 C CNN "Digikey Part #"
-F 5 "RES SMD 0 OHM JUMPER 1/10W 0402" H 700 -1450 50  0001 C CNN "Info"
-F 6 "Panasonic Electronic Components" H 700 -1450 50  0001 C CNN "Manufacturer"
-F 7 "ERJ-2GE0R00X" H 700 -1450 50  0001 C CNN "Manufacturer Part #"
-	1    7150 3250
+F 0 "R51" V 7600 3250 50  0000 C CNN
+F 1 "0" V 7550 3150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402_NoSilk" H 7600 3250 50  0001 C CNN
+F 3 "" H 7600 3250 50  0001 C CNN
+F 4 "P0.0JCT-ND" H 1150 -1450 50  0001 C CNN "Digikey Part #"
+F 5 "RES SMD 0 OHM JUMPER 1/10W 0402" H 1150 -1450 50  0001 C CNN "Info"
+F 6 "Panasonic Electronic Components" H 1150 -1450 50  0001 C CNN "Manufacturer"
+F 7 "ERJ-2GE0R00X" H 1150 -1450 50  0001 C CNN "Manufacturer Part #"
+	1    7600 3250
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7000 3250 7050 3250
-Wire Wire Line
-	7250 3250 7350 3250
-Wire Wire Line
-	7350 3050 7350 3250
 Connection ~ 7350 3250
 Wire Wire Line
 	7100 3450 7350 3450
@@ -609,30 +596,23 @@ Wire Wire Line
 	7050 2350 7050 2250
 Connection ~ 7050 2250
 Wire Wire Line
-	7050 2250 7100 2250
-Wire Wire Line
 	7400 2250 7400 2300
-Wire Wire Line
-	7400 2250 7400 2150
-Connection ~ 7400 2250
-Wire Wire Line
-	7300 2250 7400 2250
 $Comp
 L Device:R_Small R?
 U 1 1 5BEC3D32
-P 7200 2250
+P 7600 2250
 AR Path="/5BEC3D32" Ref="R?"  Part="1" 
 AR Path="/5BE83AC7/5BEC3D32" Ref="R?"  Part="1" 
 AR Path="/5BE83956/5BEC3D32" Ref="R52"  Part="1" 
-F 0 "R52" V 7200 2250 50  0000 C CNN
-F 1 "0" V 7150 2150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402_NoSilk" H 7200 2250 50  0001 C CNN
-F 3 "" H 7200 2250 50  0001 C CNN
-F 4 "P0.0JCT-ND" H 750 -2450 50  0001 C CNN "Digikey Part #"
-F 5 "RES SMD 0 OHM JUMPER 1/10W 0402" H 750 -2450 50  0001 C CNN "Info"
-F 6 "Panasonic Electronic Components" H 750 -2450 50  0001 C CNN "Manufacturer"
-F 7 "ERJ-2GE0R00X" H 750 -2450 50  0001 C CNN "Manufacturer Part #"
-	1    7200 2250
+F 0 "R52" V 7600 2250 50  0000 C CNN
+F 1 "0" V 7550 2150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402_NoSilk" H 7600 2250 50  0001 C CNN
+F 3 "" H 7600 2250 50  0001 C CNN
+F 4 "P0.0JCT-ND" H 1150 -2450 50  0001 C CNN "Digikey Part #"
+F 5 "RES SMD 0 OHM JUMPER 1/10W 0402" H 1150 -2450 50  0001 C CNN "Info"
+F 6 "Panasonic Electronic Components" H 1150 -2450 50  0001 C CNN "Manufacturer"
+F 7 "ERJ-2GE0R00X" H 1150 -2450 50  0001 C CNN "Manufacturer Part #"
+	1    7600 2250
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -642,4 +622,40 @@ Wire Wire Line
 	1150 2350 1750 2350
 Wire Wire Line
 	850  2350 1150 2350
+Wire Wire Line
+	2900 2350 3250 2350
+Wire Wire Line
+	3350 2350 3250 2350
+Connection ~ 3250 2350
+Wire Wire Line
+	3550 2350 3650 2350
+Wire Wire Line
+	3650 2350 3650 2150
+Text Label 1700 2450 0    50   ~ 0
+CP1
+Text Label 1700 2550 0    50   ~ 0
+CP2
+Text Label 2900 2350 0    50   ~ 0
+INV_OUT
+Wire Wire Line
+	7050 2250 7400 2250
+Wire Wire Line
+	7500 2250 7400 2250
+Connection ~ 7400 2250
+Wire Wire Line
+	7700 2250 7800 2250
+Wire Wire Line
+	7800 2250 7800 2150
+Text Label 7100 2250 0    50   ~ 0
+2_5_OUT
+Wire Wire Line
+	7000 3250 7350 3250
+Wire Wire Line
+	7500 3250 7350 3250
+Wire Wire Line
+	7700 3250 7850 3250
+Wire Wire Line
+	7850 3250 7850 3000
+Text Label 7050 3250 0    50   ~ 0
+n2_5_OUT
 $EndSCHEMATC
