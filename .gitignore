@@ -24,3 +24,9 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+
+# Ignore pyenv
+/bioenv/
+
+# Python ignores
+*.pyc
